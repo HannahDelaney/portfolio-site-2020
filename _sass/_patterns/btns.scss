@@ -1,0 +1,29 @@
+.btn {
+  transition: all .3s ease;
+  font-family: var(--font-secondary);
+  border-radius: 40px;
+}
+
+.btn-main {
+  background-color: var(--color-teal-dark);
+  border-color: var(--color-teal-dark);
+  color: var(--color-white);
+  transition: all .3s ease;
+}
+
+.btn-main:hover {
+  background-color: var(--color-d-teal-dark);
+  border-color: var(--color-d-teal-dark);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-d-teal-dark);
+  color: var(--color-d-teal-dark);
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-d-teal-dark);
+  color: var(--color-white);
+  border-color: var(--color-d-teal-dark);
+}

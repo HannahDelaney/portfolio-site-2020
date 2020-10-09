@@ -1,0 +1,39 @@
+.footer {
+  border-top: solid 15px var(--color-d-teal-lightest);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: 10000;
+  padding-top: 1rem;
+}
+
+.social-links {
+  display: inline-block;
+  text-align: center;
+}
+
+.icon-link {
+  transition: all .5s ease;
+  color: var(--color-teal-dark);
+}
+
+.icon-link:hover {
+  color: var(--color-d-teal-dark);
+}
+
+.footer-details-1,
+.footer-details-2 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .footer-details-1 {
+    text-align: left;
+  }
+
+  .footer-details-2 {
+    text-align: right;
+  }
+
+}
