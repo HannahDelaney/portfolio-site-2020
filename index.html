@@ -7,7 +7,7 @@ page: home
 
 {% include chat-bubble.html %}
 <div class="h2-home">
-  <img class="icon push" src="../images/logo-icon.svg" alt="">
+  <img class="icon push" src="{{site.baseurl}}/images/logo-icon.svg" alt="">
   <h2 class="font-normal">Take a look at my work!</h2>
 </div>
 {% assign previews = site.case-studies | sort: "order" %}
