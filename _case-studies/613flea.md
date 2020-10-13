@@ -13,6 +13,7 @@ h2: Logo Design
 category-icons:
   - cat-icon: branding.svg
     cat-icon-alt: Branding icon
+    cat-icon-label: BRANDING
 intro-p: When tasked with choosing a small business logo to update, I knew I wanted to connect with a non-profit if possible, because I am interested in contributing to such organizations whenever I am able. 613 Flea is not only an organization that fits these requirements, but is also an event I have attended and enjoyed personally. Taking this project on was an exciting prospect.
 client: 613 Flea, Ottawa’s free monthly marketplace
 goal: Design a fresh logo for the popular event/organization, that will be familiar and representative of all attendees and vendors.

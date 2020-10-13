@@ -1,5 +1,5 @@
 .social-links {
-  display: inline-block;
+  display: block;
   text-align: center;
 }
 
@@ -13,10 +13,22 @@
   transform: scale(1.1);
 }
 
-.category-icon {
-
+.cat-icon-container {
+  position: relative;
+  text-align: center;
 }
 
-.category-icon:hover {
+.cat-icon-container p {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  max-height: 0;
+  transition: all .2s cubic-bezier(0.49, -0.05, 0.56, 1.15);
+}
 
+.cat-icon-container:hover p {
+  max-height: 1rem;
+  transform: translateY(80%);
 }

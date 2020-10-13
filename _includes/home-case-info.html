@@ -11,7 +11,7 @@
         <div class="category-list push">
           <p class="bold push-r">Categories:</p>
           {% for icon in preview.category-icons %}
-            {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt %}
+            {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt cat-icon-label=icon.cat-icon-label %}
           {% endfor %}
         </div>
         <a class="btn btn-main" href="case-studies/{{preview.preview-case-name-link}}/">View Case Study</a>

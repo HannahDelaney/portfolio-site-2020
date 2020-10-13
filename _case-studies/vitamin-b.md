@@ -13,10 +13,13 @@ h2: E-commerce Site
 category-icons:
   - cat-icon: web.svg
     cat-icon-alt: Web icon
+    cat-icon-label: WEB
   - cat-icon: ux-ui.svg
     cat-icon-alt: UX/UI icon
+    cat-icon-label: UX/UI
   - cat-icon: branding.svg
     cat-icon-alt: Branding icon
+    cat-icon-label: BRANDING
 intro-p: As a project in my web development class, I was tasked with designing and building an ecommerce site selling whatever I wished to. I invented a honey business because I was interested in the style of branding I could create to accompany it.
 client: Vitamin Bee Honey
 goal: Develop a branded style for the company and site, as well as a pattern library for the client to pull assets from. The designs should retain a whimsical vibe but be easy to navigate for users of various ages.

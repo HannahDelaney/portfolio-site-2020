@@ -13,8 +13,10 @@ h2: Season Pass Campaign for a Ski Resort
 category-icons:
   - cat-icon: illustration.svg
     cat-icon-alt: Illustration icon
+    cat-icon-label: ILLUSTRATION
   - cat-icon: motion.svg
     cat-icon-alt: Motion icon
+    cat-icon-label: MOTION
 intro-p: When tasked with choosing a small business logo to update, I knew I wanted to connect with a non-profit if possible, because I am interested in contributing to such organizations whenever I am able. 613 Flea is not only an organization that fits these requirements, but is also an event I have attended and enjoyed personally. Taking this project on was an exciting prospect.
 client: Camp Fortune
 goal: Create a campaign design that will cover various advertising opportunities (print, web) and attract viewers to purchase a season pass at Camp Fortune.

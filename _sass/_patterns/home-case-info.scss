@@ -9,14 +9,9 @@ hr {
 
 .category-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: flex-end;
 }
-
-// .category-list {
-//   display: flex;
-//   flex-wrap: wrap;
-// }
 
 .case {
   background-color: var(--color-white);
@@ -45,6 +40,10 @@ hr {
     padding-top: 2rem;
   }
 
+  .category-list {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -59,6 +58,12 @@ hr {
 
   .img-case {
     padding-top: 0;
+  }
+
+  .category-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
   }
 
 }

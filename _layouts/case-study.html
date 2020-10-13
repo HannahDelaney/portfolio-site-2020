@@ -9,7 +9,7 @@ layout: default
 </div>
 <div class="case-icons">
   {% for icon in page.category-icons %}
-    {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt %}
+    {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt cat-icon-label=icon.cat-icon-label %}
   {% endfor %}
 </div>
 
@@ -101,9 +101,9 @@ layout: default
 
 <div class="next grid pad-t-2 case-edges gutter-2 pad-b-2">
   <div class="unit xs-1-2 text-left">
-    <a href="{{site.baseurl}}/case-studies/{{page.previousurl}}">Previous Case Study</a>
+    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.previousurl}}"><span class="bold"><</span> Previous</a>
   </div>
   <div class="unit xs-1-2 text-right">
-    <a href="{{site.baseurl}}/case-studies/{{page.nexturl}}">Next Case Study</a>
+    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.nexturl}}">Next <span class="bold">></span></a>
   </div>
 </div>

@@ -3,29 +3,7 @@ layout: default
 title: Work time
 ---
 
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
-<p>wuddup</p>
+{% assign previews = site.case-studies | sort: "order" %}
+{% for preview in previews %}
+  {% include home-case-info.html %}
+{% endfor %}

@@ -13,8 +13,10 @@ h2: Personal Blog Website
 category-icons:
   - cat-icon: web.svg
     cat-icon-alt: Web icon
+    cat-icon-label: WEB
   - cat-icon: ux-ui.svg
     cat-icon-alt: UX/UI icon
+    cat-icon-label: UX/UI
 intro-p: I was thrilled when I got the first email about this project. The client, Katie, approached me in need of a site to accompany the launch of her online presence and YouTube channel. She needed a site that would function as a blog and collect email subscribers, with the potential to grow along with her community.
 client: Life with Gutz
 goal: Design and develop a responsive online platform for a woman setting up a blog for her personal brand, using Netlify as a CMS.
