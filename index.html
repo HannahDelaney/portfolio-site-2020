@@ -1,11 +1,16 @@
 ---
 layout: default
 titleAfter: Graphic Design and Illustration
+page: home
 ---
 
-<!-- {% include svg-home-banner.html %} -->
 
-
-<p>Hello!</p>
 {% include chat-bubble.html %}
-{% include home-case-info.html %}
+<div class="h2-home">
+  <img class="icon push" src="../images/logo-icon.svg" alt="">
+  <h2 class="font-normal">Take a look at my work!</h2>
+</div>
+{% assign previews = site.case-studies | sort: "order" %}
+{% for preview in previews %}
+  {% include home-case-info.html %}
+{% endfor %}

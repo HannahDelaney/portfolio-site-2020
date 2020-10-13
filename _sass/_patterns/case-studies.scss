@@ -1,0 +1,38 @@
+.case-banner {
+  height: 40vh;
+  object-fit: cover;
+  width: 100%;
+  max-height: 50vh;
+}
+
+.case-title {
+  background-color: var(--color-d-teal);
+  text-align: center;
+  // height: 8vh;
+  // max-height: 10vh;
+}
+
+.case-title h2 {
+  font-weight: 400;
+}
+
+.case-icons {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.case-edges {
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .case-banner {
+    height: 76vh;
+    max-height: 80vh;
+  }
+
+}
