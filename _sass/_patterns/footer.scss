@@ -5,20 +5,7 @@
   width: 100%;
   z-index: 10000;
   padding-top: 1rem;
-}
-
-.social-links {
-  display: inline-block;
-  text-align: center;
-}
-
-.icon-link {
-  transition: all .5s ease;
-  color: var(--color-teal-dark);
-}
-
-.icon-link:hover {
-  color: var(--color-d-teal-dark);
+  background-color: var(--color-white);
 }
 
 .footer-details-1,

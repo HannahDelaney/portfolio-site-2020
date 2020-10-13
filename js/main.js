@@ -7,3 +7,23 @@ navToggle.addEventListener('click', function(e){
 })
 
 header.classList.remove('no-js');
+
+
+
+
+$('.header-home').fixx({
+  endElement:'.footer',
+  placeholder: false
+});
+
+const navHeight = header.offsetHeight;
+
+$('.placehold-head').css("height", navHeight);
+
+$('.svg-banner-wrapper').css("height", `calc(100vh - ${navHeight}px)`);
+
+const caseTitle = document.querySelector('.case-title');
+
+const titleHeight = caseTitle.offsetHeight;
+
+$('.case-banner').css("height", `calc(100vh - ${titleHeight + navHeight}px)`);

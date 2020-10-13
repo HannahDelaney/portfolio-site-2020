@@ -1,10 +1,18 @@
 .header {
   background-color: var(--color-d-teal-lightest);
-  position: relative;
+  position: absolute;
   width: 100%;
   z-index: 10000;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.placehold-head {
+  height: auto;
+}
+
+.header-home.fixed {
+  position: fixed;
 }
 
 .logo {

@@ -21,12 +21,15 @@
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#footer">Jump to footer</a></li>
   </ul>
+
+  {% if page.page contains 'home' %} {% include svg-home-banner.html %} {% endif %}
   {% include header.html %}
   <main id="main" role="main">
     {{content}}
   </main>
   {% include footer.html %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/js/fixx.js"></script>
   <script src="{{site.baseurl}}/js/main.js"></script>
 </body>
 </html>

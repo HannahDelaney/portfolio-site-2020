@@ -29,6 +29,8 @@
   --color-yellow-light: #ffeac5;
 
   --color-black: #000;
+  --color-grey: #e6e6e6;
+  --color-grey-dark: #1e1e1e;
   --color-white: #fff;
 
   --font-primary: Lora, serif;
@@ -39,7 +41,10 @@
 html {
   font-family: var(--font-primary);
   scroll-behavior: smooth;
-  // background-image: linear-gradient(to bottom, white, var(--color-d-teal-lightest));
+}
+
+main {
+  background-color: var(--color-white);
 }
 
 .f-prim {
@@ -77,9 +82,10 @@ dl {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-d-teal-dark);
   font-family: var(--font-primary);
   text-decoration: none;
+  transition: all .3s ease;
 }
 
 p a {
