@@ -9,8 +9,20 @@ page: home
 <div class="h2-home">
   <img class="icon push" src="{{site.baseurl}}/images/logo-icon.svg" alt="">
   <h2 class="font-normal">Take a look at my work!</h2>
+  {% include category-icon.html cat-icon="web.svg" cat-icon-alt="Web icon" cat-icon-label="WEB" %}
+  {% include category-icon.html cat-icon="branding.svg" cat-icon-alt="Branding icon" cat-icon-label="BRANDING" %}
+  {% include category-icon.html cat-icon="illustration.svg" cat-icon-alt="Illustration icon" cat-icon-label="ILLUSTRATION" %}
+  {% include category-icon.html cat-icon="print.svg" cat-icon-alt="Print icon" cat-icon-label="PRINT" %}
+  {% include category-icon.html cat-icon="ux-ui.svg" cat-icon-alt="UX/UI icon" cat-icon-label="UX/UI" %}
+  {% include category-icon.html cat-icon="motion.svg" cat-icon-alt="Motion icon" cat-icon-label="MOTION" %}
 </div>
 {% assign previews = site.case-studies | sort: "order" %}
 {% for preview in previews %}
   {% include home-case-info.html %}
 {% endfor %}
+<div class="h2-home tight-edges pad-b-2">
+  <h2 class="font-normal">Just for Fun!</h2>
+  <img class="push" src="{{site.baseurl}}/images/logo-icon.svg" alt="">
+  <p>Although I love my work, sometimes I am looking to do projects just for the fun of it. I might be looking for inspiration, or just interested in trying something new. Have a look at some of my passion projects that were born purely from the joy of being creative.</p>
+  {% include btn-ghost.html class="push-2" link="fun.html" btn="Check it out!" %}
+</div>
