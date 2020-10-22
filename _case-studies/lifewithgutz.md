@@ -6,8 +6,8 @@ preview-img: gutz-plain.png
 preview-img-alt:
 preview-copy: A blog website for an influencer and entrepreneur.
 preview-case-name-link: lifewithgutz
-banner-img: vit-b-banner.jpg
-banner-img-alt: "A laptop showing the Vitamin Bee homepage sitting on a coffee table, with a teacup, candle and white couch in the background."
+banner-img: gutz-banner.jpg
+banner-img-alt: "A laptop showing the Life with Gutz homepage sitting on a table next to a small stack of books and plant."
 h1: Life with Gutz
 h2: Personal Blog Website
 category-icons:
@@ -21,37 +21,37 @@ intro-p: I was thrilled when I got the first email about this project. The clien
 client: Life with Gutz
 goal: Design and develop a responsive online platform for a woman setting up a blog for her personal brand, using Netlify as a CMS.
 other-heading: "Website:"
-other-a: Life with Gutz
+other-a: lifewithgutz.ca
+other-2: (NOTE This site is still in the final stages of approvals with the client, so her website is currently composed of placeholder content.)
 other-link: https://lifewithgutz.ca
-sketches-col-1: sketches-campaign-1.png
-sketches-col-2: sketches-campaign-2.png
-p-1: |
-  After learning the needs for this site, I realized early on that the best option was to have a me code and design the entire site rather than use a web design service, then set up a CMS (Content Management System) through Netlify. This way she could easily add more content that would work within what I would build for her, and I would have full control of the design. Having such freedom, and having my first client for a job of this scale, was very exciting.
-inspiration-img: lwg-logo.png
+sketches-col-1: sketches-gutz-1.png
+sketches-col-2: sketches-gutz-2.png
+inspiration-img: inspiration-gutz.jpg
 inspiration-img-alt: Katie's logo.
 p-inspo: |
-  Katie already had a logo for herself, and was interested in using the colours orange and purple, as they are incorporated in a portrait of herself she also already had. As I considered the sort of content she is putting out, which involves fire and flow and telling stories, I started to imagine the flowing purple shapes that are now a key visual element of the site. I wanted her site to feel polished, but also represent her content and personality.
-compo-img-1: lwg-logo.png
+  Katie already had a logo for herself, and was interested in using orange and purple, to match a portrait of herself she also already had. As I considered the sort of content she is putting out, which involves fire and flow and telling stories, I started to imagine the flowing purple shapes that are now a key visual element of the site. I wanted her site to feel polished, but also represent her content and personality.
+compo-img-1: compo-gutz-1.svg
 compo-img-1-alt:
-compo-img-2: lwg-logo.png
+compo-img-2: compo-gutz-2.svg
 compo-img-2-alt:
-p-compo-1: font stuff
-p-compo-2: watch on youtuube button, filters, js social icons
-extra-heading: something else I might have said
-extra-img-1: lwg-logo.png
-extra-img-1-alt:
-extra-img-2: lwg-logo.png
-extra-img-2-alt:
-p-extra-1: other things
-p-extra-2: did happen
-final-img-1: lwg-logo.png
-final-img-1-alt:
-final-img-2: lwg-logo.png
-final-img-2-alt:
-final-img-3: lwg-logo.png
-final-img-3-alt: watch on youtuube button, filters, js social icons
-final-img-4: lwg-logo.png
-final-img-4-alt: watch on youtuube button, filters, js social icons
-previousurl: un-booklet
+p-compo-1: This site features three Google fonts, Oswald, Lora and Rock Salt. I included a handwritten choice for Katie, so her content would feel more personalized to her readers. For blog content in particular, this felt like a clear choice.
+p-compo-2: Sometimes the blog posts pair with YouTube content. I created a button which will only appear on posts if there is a video to link to. The social nav on the right side disappears whenever the social icons in the footer are visible, for quick access to all of Katie's content.
+extra:
+  extra-heading: Adding a CMS
+  extra-img-1: gutz-cms-1.png
+  extra-img-1-alt:
+  extra-img-2: gutz-cms-2.png
+  extra-img-2-alt:
+  p-extra-1:
+  p-extra-2: After researching the possibilities and understanding the client needs, I knew the best option was a site that I code entirely. I would be able to design with full control of the visual outcome, and set her up with a Content Management System through Netlify. This way she could easily add more content within what I would build. Having such freedom, and having my first client for a job of this scale, was very exciting.
+final-img-1: gutz-tablet.jpg
+final-img-1-alt: A tablet with a keyboard displays the website welcome banner horizontally.
+final-img-2: gutz-multi.jpg
+final-img-2-alt: A laptop, tablet and mobile screens that show different pages of the website.
+final-img-3: gutz-4screen-home.jpg
+final-img-3-alt:
+final-img-4: gutz-mobile.jpg
+final-img-4-alt: Multiple phone screens showing the various pages of the Life with Gutz website.
+previousurl: vitamin-b
 nexturl: 613flea
 ---

@@ -28,7 +28,34 @@ other-a: Vitamin Bee
 other-link: https://lucid-liskov-8ad05f.netlify.app/
 other-a-2: Vitamin Bee Pattern Library
 other-link-2: https://lucid-liskov-8ad05f.netlify.app/pattern-library
-sketches-col-1: sketches-campaign-1.png
-sketches-col-2: sketches-campaign-2.png
-p-1: Vitamin Bee is a small family-run business, with a focus on honey and beeswax products. The design is pleasant and warm, with a limited colour palette so as to not distract or complicate the process of getting information, or finding the items desired for purchase.
+sketches-col-1: sketches-vit-b-1.jpg
+sketches-col-2: sketches-vit-b-2.jpg
+inspiration-img: vit-b-inspo.jpg
+inspiration-img-alt:
+p-inspo: |
+  When researching the market for websites like this one, I noticed a lot of soft colour palettes and quirky, light-hearted artwork. I decided to emulate these styles by using a mixture of quality photographs and illustrated elements, which will allow the whimsical elements to feature but also to keep focus on the main attraction, the bees themselves. Also, SO MANY bee puns.
+compo-img-1: compo-vit-b-1.svg
+compo-img-1-alt: A sample of the fonts Masquarelo and Cronos, as well as the hexcode swatches, 7524 C, 424 C, and Black 6 C.
+compo-img-2: compo-vit-b-2.svg
+compo-img-2-alt: The Vitamin Bee sketched icon library.
+p-compo-1: Masquarelo is invokes a sense of whimsy to the design, while Cronos provides a solid sans-serif for buttons and basic product descriptions, so the design is clean and functional. The natural, earthy browns imply the colour of honey while complimenting the theme of healthy, holistic products.
+p-compo-2: I thought it would be fun for each product to have an individual icon. As it is a family run business, I knew this goal would be achievable as the scope of products will likely expand slowly, if at all. A store that is producing hundreds or thousands of different products would not be suitable for such a component. It was fun to be able to include it!
+extra:
+  extra-heading: Brand Design
+  extra-img-1: vit-b-logo-1.svg
+  extra-img-1-alt:
+  extra-img-2: vit-b-logo-2.svg
+  extra-img-2-alt:
+  p-extra-1:
+  p-extra-2: The Vitamin Bee logo is simple, meant to clearly depict the product being sold. This hand-drawn bee was originally just a placeholder, but I found that I wasn’t interested in changing it as I built more elements around it. This unconventional method of creating the logo was a surprise, and became the main inspiration for the rest of the site design turning towards this fast draw style.
+final-img-1: vit-b-products.jpg
+final-img-1-alt:
+final-img-2: vit-b-shop.jpg
+final-img-2-alt:
+final-img-3: vit-b-4screen-home.jpg
+final-img-3-alt:
+final-img-4: vit-b-404.jpg
+final-img-4-alt:
+previousurl: 613flea
+nexturl: lifewithgutz
 ---
