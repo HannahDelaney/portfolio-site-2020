@@ -4014,7 +4014,7 @@ ul > li::before {
 .h2-home {
   text-align: center;
   font-weight: normal;
-  margin: 5rem 0 2rem;
+  padding: 5rem 0 2rem;
   background-color: var(--color-white);
 }
 
@@ -4358,6 +4358,11 @@ hr {
 .svg-banner-wrapper {
   position: relative;
   height: 100vh;
+  background-image: url(../images/banner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .svg-banner {
@@ -4367,6 +4372,17 @@ hr {
   bottom: 0;
   right: 0;
   z-index: -10;
+}
+
+.home-h1 {
+  visibility: hidden;
+}
+
+.about-para {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 42rem;
 }
 
 /*# sourceMappingURL=main.css.map */

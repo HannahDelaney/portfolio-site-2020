@@ -1,6 +1,11 @@
 .svg-banner-wrapper {
   position: relative;
   height: 100vh;
+  background-image: url(../images/banner.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .svg-banner {
@@ -10,4 +15,8 @@
   bottom: 0;
   right: 0;
   z-index: -10;
+}
+
+.home-h1 {
+  visibility: hidden;
 }
