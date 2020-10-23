@@ -9,7 +9,7 @@
         <hr>
         <p>{{preview.preview-copy}}</p>
         <div class="category-list push">
-          <p class="bold push-r">Categories:</p>
+          <h4 class="bold push-r">Categories:</h4>
           {% for icon in preview.category-icons %}
             {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt cat-icon-label=icon.cat-icon-label %}
           {% endfor %}

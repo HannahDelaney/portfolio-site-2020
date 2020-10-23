@@ -1156,7 +1156,7 @@ a:focus, [tabindex="0"]:focus {
   top: -10em;
   z-index: 100000;
   /* To make sure they're always on top */
-  background-color: var(--color-primary);
+  background-color: var(--color-black);
   border: 0;
   color: #fff;
   font-size: 1.125rem;
@@ -3977,7 +3977,7 @@ ul > li::before {
 }
 
 .social-links {
-  display: block;
+  display: inline-block;
   text-align: center;
 }
 
@@ -4014,8 +4014,7 @@ ul > li::before {
 .h2-home {
   text-align: center;
   font-weight: normal;
-  padding: 5rem 0 2rem;
-  background-color: var(--color-white);
+  padding: 4rem 0 0;
 }
 
 .tight-edges {
@@ -4026,7 +4025,7 @@ ul > li::before {
 }
 
 .bubble-container {
-  padding: 0 2rem;
+  padding: 3rem 2rem 0;
   position: relative;
 }
 
@@ -4258,7 +4257,7 @@ hr {
   transition: all .3s ease;
 }
 
-.case-bg:nth-child(odd) {
+.case-bg:nth-of-type(odd) {
   background-color: var(--color-grey);
 }
 
@@ -4389,6 +4388,13 @@ hr {
   max-width: 42rem;
 }
 
+.about-img {
+  max-width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .grid-container {
   display: grid;
   gap: .5rem;
@@ -4429,10 +4435,8 @@ hr {
 
 @media only screen and (min-width: 60em) {
   .grid-container {
-    display: grid;
     gap: 1rem;
     grid-template-columns: repeat(8, 1fr);
-    grid-auto-flow: dense;
   }
 }
 

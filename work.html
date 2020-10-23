@@ -2,8 +2,15 @@
 layout: default
 title: Work time
 ---
+<div class="tight-para pad-t-2 pad-b gutter-2">
+  <h1>Work</h1>
+  <p>These case studies are examples of the type of work I have done.</p>
+</div>
+
 
 {% assign previews = site.case-studies | sort: "order" %}
-{% for preview in previews %}
-  {% include home-case-info.html %}
-{% endfor %}
+<section>
+  {% for preview in previews %}
+    {% include home-case-info.html %}
+  {% endfor %}
+</section>

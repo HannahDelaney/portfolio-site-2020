@@ -18,7 +18,7 @@ hr {
   transition: all .3s ease;
 }
 
-.case-bg:nth-child(odd) {
+.case-bg:nth-of-type(odd) {
   background-color: var(--color-grey);
 }
 
