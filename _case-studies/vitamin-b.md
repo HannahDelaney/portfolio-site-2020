@@ -29,9 +29,11 @@ other-link: https://lucid-liskov-8ad05f.netlify.app/
 other-a-2: Vitamin Bee Pattern Library
 other-link-2: https://lucid-liskov-8ad05f.netlify.app/pattern-library
 sketches-col-1: sketches-vit-b-1.jpg
+sketches-col-1-alt: Vitamin Bee sketches, some wireframes and icons.
 sketches-col-2: sketches-vit-b-2.jpg
+sketches-col-2-alt: Vitamin Bee sketches, showing the header and prototype wireframe.
 inspiration-img: vit-b-inspo.jpg
-inspiration-img-alt:
+inspiration-img-alt: Welcome banner cars and two iterations of a product card, base and hover states.
 p-inspo: |
   When researching the market for websites like this one, I noticed a lot of soft colour palettes and quirky, light-hearted artwork. I decided to emulate these styles by using a mixture of quality photographs and illustrated elements, which will allow the whimsical elements to feature but also to keep focus on the main attraction, the bees themselves. Also, SO MANY bee puns.
 compo-img-1: compo-vit-b-1.svg
@@ -43,19 +45,20 @@ p-compo-2: I thought it would be fun for each product to have an individual icon
 extra:
   extra-heading: Brand Design
   extra-img-1: vit-b-logo-1.svg
-  extra-img-1-alt:
+  extra-img-1-alt: Different sizes of the Vitamin Bee logo and favicon.
   extra-img-2: vit-b-logo-2.svg
-  extra-img-2-alt:
+  extra-img-2-alt: The Vitamin Bee logo.
   p-extra-1:
   p-extra-2: The Vitamin Bee logo is simple, meant to clearly depict the product being sold. This hand-drawn bee was originally just a placeholder, but I found that I wasn’t interested in changing it as I built more elements around it. This unconventional method of creating the logo was a surprise, and became the main inspiration for the rest of the site design turning towards this fast draw style.
 final-img-1: vit-b-products.jpg
-final-img-1-alt:
+final-img-1-alt: Two bottles and three pieces of soap with the Vitamin Bee branding.
 final-img-2: vit-b-shop.jpg
-final-img-2-alt:
+final-img-2-alt: A laptop showing part of a product page, for Honey with Lemon.
 final-img-3: vit-b-4screen-home.jpg
-final-img-3-alt:
+final-img-3-alt: Four different screen sizes showing various scroll heights of the Vitamin Bee site.
 final-img-4: vit-b-404.jpg
-final-img-4-alt:
+final-img-4-alt: A laptop showing Vitamin Bee's 404 page.
+web-bottom: https://lucid-liskov-8ad05f.netlify.app/
 previousurl: 613flea
 nexturl: lifewithgutz
 ---

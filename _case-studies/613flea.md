@@ -3,7 +3,7 @@ layout: case-study
 order: 2
 title: "613Flea"
 preview-img: flea-preview.png
-preview-img-alt:
+preview-img-alt: Two business cards branded with the updated 613 Flea logo.
 preview-copy: A logo redesign for a well known Ottawa thrift and vintage event.
 preview-case-name-link: 613flea
 banner-img: 613flea-banner.jpg
@@ -20,9 +20,11 @@ goal: Design a fresh logo for the popular event/organization, that will be famil
 other-heading: "Favourite Detail:"
 other: The heart, from the original logo, is still present in the new one.
 sketches-col-1: sketches-613-1.jpg
+sketches-col-1-alt: 613 Flea logo sketches, first iterations and attempts.
 sketches-col-2: sketches-613-2.jpg
+sketches-col-1-alt: 613 Flea logo sketches, continued drawings and eventual logo.
 inspiration-img: 613flea-original.jpg
-inspiration-img-alt:
+inspiration-img-alt: 613 Flea's original logo.
 p-inspo: |
   The original logo is simple and recognizable, with only a heart graphic to accompany the name of the event. I felt it important to try to keep this element if possible, as it is a popular attraction and the logo is often recreated by participating artisans.
 compo-img-1: compo-613-1.svg

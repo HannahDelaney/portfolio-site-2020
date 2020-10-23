@@ -1,5 +1,6 @@
-<a class="icon-link" href="{{include.icon-link}}">
+<a class="icon-link" href="{{include.icon-link}}" aria-label="Link to {{include.icon-img}}">
   <i class="icon {{include.i-size}}">
     <svg><use xlink:href="{{site.baseurl}}/images/social-icons/icons.svg#{{include.icon-img}}" /></svg>
   </i>
+  <span class="hidden">Link to {{include.icon-img}}</span>
 </a>

@@ -2,8 +2,10 @@
   <div class="grid grid-bottom">
     <div class="unit xs-1-2 m-1-2 l-1-3">
       <a href="{{site.baseurl}}/">
+        {% if page.url == "/" %}<h1 class="push-0" title="Hannah Delaney B">{% endif %}
         <img class="logo" src="{{site.baseurl}}/images/logo.svg" alt="Hannah Delaney B Logo">
         <img class="logo-graphic" src="{{site.baseurl}}/images/logo-graphic.svg" alt="Hannah Delaney B Logo">
+        {% if page.url == "/" %}</h1>{% endif %}
       </a>
     </div>
     <div class="menu unit xs-1-2 m-0 unit-offset-l-1-3 grid-bottom-align text-right relative">
