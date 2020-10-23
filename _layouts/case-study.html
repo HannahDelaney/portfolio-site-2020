@@ -30,10 +30,10 @@ layout: default
 
 <div class="sketches grid grid-middle push-2 pad-t-2 pad-b-2">
   <div class="unit xs-1 l-1-2">
-    <img class="img-flex" src="{{site.baseurl}}/images/sketches/{{page.sketches-col-1}}" alt="">
+    <img class="img-flex" src="{{site.baseurl}}/images/sketches/{{page.sketches-col-1}}" alt="{{page.sketches-col-1-alt}}">
   </div>
   <div class="unit xs-1 l-1-2">
-    <img class="img-flex" src="{{site.baseurl}}/images/sketches/{{page.sketches-col-2}}" alt="">
+    <img class="img-flex" src="{{site.baseurl}}/images/sketches/{{page.sketches-col-2}}" alt="{{page.sketches-col-1-alt}}">
   </div>
 </div>
 
@@ -79,23 +79,30 @@ layout: default
 </div>
 {% endif %}
 
-<div class="final case-edges gutter-2 grid pad-t-2 pad-b-2">
+<div class="final case-edges gutter-2 grid pad-t-2">
   <div class="unit xs-1">
     <h3>Final Results!</h3>
   </div>
   <div class="unit xs-1 gutter">
-    <img class="push-2 img-flex" src="{{site.baseurl}}/images/{{page.final-img-3}}" alt="{{page.final-img-3-alt}}">
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-3}}" alt="{{page.final-img-3-alt}}">
   </div>
-  <div class="unit xs-1 l-1-2 push-2 gutter">
+  <div class="unit xs-1 l-1-2 gutter">
     <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-1}}" alt="{{page.final-img-1-alt}}">
   </div>
-  <div class="unit xs-1 l-1-2 push-2 gutter">
+  <div class="unit xs-1 l-1-2 gutter">
     <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-2}}" alt="{{page.final-img-2-alt}}">
   </div>
   <div class="unit xs-1 gutter">
-    <img class="push-2 img-flex" src="{{site.baseurl}}/images/{{page.final-img-4}}" alt="{{page.final-img-4-alt}}">
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-4}}" alt="{{page.final-img-4-alt}}">
   </div>
 </div>
+
+{% if page.web-bottom %}
+<div class="text-center pad-t pad-b-2">
+  <a class="f-second giga bold" href="{{page.web-bottom}}">Visit the website!</a>
+</div>
+{% endif %}
+
 <div class="next grid pad-t-2 case-edges gutter-2 pad-b-2">
   <div class="unit xs-1-2 text-left">
     <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.previousurl}}"><span class="bold"><</span> Previous</a>
