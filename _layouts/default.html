@@ -7,9 +7,16 @@
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="{{site.data[pageName].seo.description}}">
+  <meta name="description" content="{{page.seo-description}}">
   <meta name="keywords" content="{{site.data[pageName].seo.keywords}}">
   <meta name="author" content="Hannah Delaney Brown">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if page.title %}{{page.title}} • {% endif %}Hannah Delaney B{% if page.titleAfter %} • {{page.titleAfter}} {% endif %}">
+  <meta property="og:url" content="http://hannahdel.ca{{page.url}}">
+  <meta property="og:image" content="{{page.display-img}}">
+  <meta property="og:site_name" content="Hannah Delaney B, Graphic Designer and Illustrator">
+  <meta property="og:description" content="{{page.seo-description}}">
+  <meta property="og:locale" content="en_CA">
   <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico">
   <link rel="icon" type="image/png" href="{{site.baseurl}}/favicon-206.png">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
@@ -31,5 +38,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/fixx.js"></script>
   <script src="{{site.baseurl}}/js/main.js"></script>
+  <script type="application/ld+json">
+  {
+    "@type": "Website",
+    "name": "Hannah Delaney B",
+    "author": {
+      "@type": "Person",
+      "@id": "hannahdelaneyb"
+    },
+    "description": "Online portfolio for graphic designer and illustration Hannah Delaney B.",
+    "url": "https://hannahdel.ca",
+    "keywords": "Graphic Design, Illustration, Ottawa, Ontario, Canada, Web, Development, Branding, Print, UI / UX, Motion, Advertising, Communication, Passionate, Creative, Artist"
+  }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@type": "Person",
+      "@id": "hannahdelaneyb",
+      "name": "Hannah Delaney B",
+      "email": "hello@hannahdel.ca",
+      "url": "https://hannahdel.ca"
+    }
+  </script>
 </body>
 </html>

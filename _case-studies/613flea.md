@@ -1,6 +1,8 @@
 ---
 layout: case-study
 order: 2
+seo-description: A new, redesigned logo for a local Ottawa not-for-profit organization, as well as a print book of branding guidelines.
+display-img: /images/613flea-banner.jpg
 title: "613Flea"
 preview-img: flea-preview.png
 preview-img-alt: Two business cards branded with the updated 613 Flea logo.

@@ -1,6 +1,8 @@
 ---
 layout: case-study
 order: 3
+seo-description: An e-commerce website for a small family-run honey business. I designed all branding for the client, in addition to designing and coding the site.
+display-img: /images/vit-b-banner.jpg
 title: "Vitamin Bee"
 preview-img: home-mockup-test.png
 preview-img-alt: A laptop showing the Vitamin Bee homepage.
