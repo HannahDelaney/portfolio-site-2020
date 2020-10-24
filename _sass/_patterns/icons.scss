@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.icon-link:focus {
+  display:inline-block;
+}
+
 .icon-link {
   transition: all .5s ease;
   color: var(--color-teal-dark);

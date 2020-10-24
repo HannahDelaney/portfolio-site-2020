@@ -26,6 +26,7 @@ $('.svg-banner-wrapper').css("height", `calc(100vh - ${navHeight}px)`);
 
 const caseTitle = document.querySelector('.case-title');
 
-const titleHeight = caseTitle.offsetHeight;
-
-$('.case-banner').css("height", `calc(100vh - ${titleHeight + navHeight}px)`);
+if (caseTitle) {
+  const titleHeight = caseTitle.offsetHeight;
+  $('.case-banner').css("height", `calc(100vh - ${titleHeight + navHeight}px)`);
+}

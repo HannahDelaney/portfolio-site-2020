@@ -1,0 +1,4 @@
+Sitemap: https://hannahdel.ca/sitemap.xml
+
+User-Agent: *
+Disallow:
