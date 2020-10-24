@@ -1,5 +1,3 @@
-console.log(navigator.userAgent);
-
 const navToggle = document.querySelector('.navtoggle');
 const header = document.querySelector('.header');
 

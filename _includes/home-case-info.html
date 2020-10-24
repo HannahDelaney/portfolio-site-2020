@@ -5,11 +5,11 @@
     </div>
     <div class="unit xs-1 unit-pull-l-1-2 l-1-2 case-study">
       <div class="home-case-content">
-        <h3 class="font-normal giga push-1-4">Case Study: <div class="exa bold">{{preview.title}}</div></h3>
+        <h2 class="font-normal giga push-1-4">Case Study: <div class="exa bold">{{preview.title}}</div></h2>
         <hr>
         <p>{{preview.preview-copy}}</p>
         <div class="category-list push">
-          <h4 class="bold push-r">Categories:</h4>
+          <h3 class="bold push-r">Categories:</h3>
           {% for icon in preview.category-icons %}
             {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt cat-icon-label=icon.cat-icon-label %}
           {% endfor %}

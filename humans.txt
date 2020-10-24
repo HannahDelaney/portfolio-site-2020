@@ -6,6 +6,7 @@
  /   \   /   \   /   \
 
 HUMANS
+humanstxt.org
 
 This site is the result of several years of learning, several late nights and several gallons of tea.
 
