@@ -37,12 +37,12 @@ sketches-col-2-alt: Vitamin Bee sketches, showing the header and prototype wiref
 inspiration-img: vit-b-inspo.jpg
 inspiration-img-alt: Welcome banner cars and two iterations of a product card, base and hover states.
 p-inspo: |
-  When researching the market for websites like this one, I noticed a lot of soft colour palettes and quirky, light-hearted artwork. I decided to emulate these styles by using a mixture of quality photographs and illustrated elements, which will allow the whimsical elements to feature but also to keep focus on the main attraction, the bees themselves. Also, SO MANY bee puns.
+  When researching the market for websites like this one, I noticed a lot of soft colour palettes and quirky, light-hearted artwork. I decided to emulate these styles by using a mixture of quality photographs and illustrations, which will allow the whimsical elements to feature but also to keep focus on the main attraction, the bees themselves. Also, SO MANY bee puns.
 compo-img-1: compo-vit-b-1.svg
 compo-img-1-alt: A sample of the fonts Masquarelo and Cronos, as well as the hexcode swatches, 7524 C, 424 C, and Black 6 C.
 compo-img-2: compo-vit-b-2.svg
 compo-img-2-alt: The Vitamin Bee sketched icon library.
-p-compo-1: Masquarelo is invokes a sense of whimsy to the design, while Cronos provides a solid sans-serif for buttons and basic product descriptions, so the design is clean and functional. The natural, earthy browns imply the colour of honey while complimenting the theme of healthy, holistic products.
+p-compo-1: Masquarelo invokes a homegrown, whimsical vibe to the design, while Cronos provides a solid sans-serif for buttons and basic product descriptions, so the design is clean and functional. The natural, earthy browns imply the colour of honey while complimenting the theme of healthy, holistic products.
 p-compo-2: I thought it would be fun for each product to have an individual icon. As it is a family run business, I knew this goal would be achievable as the scope of products will likely expand slowly, if at all. A store that is producing hundreds or thousands of different products would not be suitable for such a component. It was fun to be able to include it!
 extra:
   extra-heading: Brand Design

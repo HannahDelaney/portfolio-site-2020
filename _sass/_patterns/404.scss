@@ -1,0 +1,27 @@
+.contain404 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.banner404 {
+  position: relative;
+  height: 100vh;
+  background-image: url(../images/404.svg);
+  background-color: var(--color-d-teal-dark);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.top-border {
+  border-top: solid 2px #fff;
+}
+
+.colour404 {
+  color: var(--color-d-teal-light);
+}
