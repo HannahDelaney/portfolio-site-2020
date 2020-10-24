@@ -23,8 +23,8 @@ layout: default
     <h3 class="push-0 mega">Goal:</h3>
     <p class="milli">{{page.goal}}</p>
     <h3 class="push-0 mega">{{page.other-heading}}</h3>
-    <p class="milli push-0">{{page.other}}<a href="{{page.other-link}}">{{page.other-a}}</a></p>
-    <p class="milli">{{page.other-2}}<a href="{{page.other-link-2}}">{{page.other-a-2}}</a></p>
+    <p class="milli push-0">{{page.other}}{% if page.other-link %}<a href="{{page.other-link}}">{{page.other-a}}</a>{% endif %}</p>
+    <p class="milli">{{page.other-2}}{% if page.other-link-2 %}<a href="{{page.other-link-2}}">{{page.other-a-2}}</a>{% endif %}</p>
   </div>
 </div>
 
