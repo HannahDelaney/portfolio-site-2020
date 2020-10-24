@@ -1,0 +1,45 @@
+   O       O       O
+   |       |       |
+  / \     / \     / \
+   |       |       |
+  / \     / \     / \
+ /   \   /   \   /   \
+
+HUMANS
+
+This site is the result of several years of learning, several late nights and several gallons of tea.
+
+TEAM
+Designer and Developer: Hannah Delaney B (that's me)
+Site: https://hannahdel.ca
+Email: hello@hannahdel.ca
+Instagram: https://www.instagram.com/hannahdeldesign/
+Behance: https://www.behance.net/brow12346c8e
+GitHub: https://github.com/HannahDelaney
+Location: Ottawa, ON
+
+.
+
+THANK YOU
+Great deal of gratitude to Thomas Bradley, teacher and coder extraordinaire.
+Email: hey@thomasjbradley.ca
+Websites:
+  - https://learn-the-web.algonquindesign.ca/
+  - http://thomasjbradley.ca
+Location: Ottawa, ON
+
+Design mockups through paid account on freepik.com
+
+Fixx | v1.0 | 05/10/2018 - https://github.com/fiasst - Marc Hudson.
+
+.
+
+TECH
+- Atom
+- GitHub
+- Jekyll
+- Markdown
+- jQuery
+
+Domain: https://hover.com
+Security: https://cloudflare.com
