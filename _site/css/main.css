@@ -4158,6 +4158,12 @@ hr {
   background-attachment: fixed;
 }
 
+@supports (-webkit-touch-callout: none) {
+  .svg-banner-wrapper {
+    background-attachment: scroll;
+  }
+}
+
 .svg-banner {
   position: fixed;
   top: 0;
