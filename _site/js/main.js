@@ -1,3 +1,5 @@
+console.log(navigator.userAgent);
+
 const navToggle = document.querySelector('.navtoggle');
 const header = document.querySelector('.header');
 
@@ -27,5 +29,3 @@ const caseTitle = document.querySelector('.case-title');
 const titleHeight = caseTitle.offsetHeight;
 
 $('.case-banner').css("height", `calc(100vh - ${titleHeight + navHeight}px)`);
-
-console.log(navigator.userAgent);
