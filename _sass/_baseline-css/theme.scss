@@ -37,6 +37,10 @@ footer {
   background-color: var(--color-white);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .f-prim {
   font-family: var(--font-primary);
 }

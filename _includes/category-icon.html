@@ -1,4 +1,11 @@
-<div class="inline-block cat-icon-container push-1-2">
-  <img class="icon category-icon" src="{{site.baseurl}}/images/category-icons/{{include.cat-icon}}" alt="{{include.cat-icon-alt}}">
-  <p class="pico f-second">{{include.cat-icon-label}}</p>
-</div>
+{% if include.icon-hover == "no" %}
+  <div class="inline-block cat-icon-container push-1-2">
+    <img class="icon category-icon" src="{{site.baseurl}}/images/category-icons/{{include.cat-icon}}" alt="{{include.cat-icon-alt}}">
+    <p class="pico f-second">{{include.cat-icon-label}}</p>
+  </div>
+{% else %}
+  <div class="inline-block cat-icon-container cat-icon-p push-1-2">
+    <img class="icon category-icon" src="{{site.baseurl}}/images/category-icons/{{include.cat-icon}}" alt="{{include.cat-icon-alt}}">
+    <p class="pico f-second">{{include.cat-icon-label}}</p>
+  </div>
+{% endif %}
