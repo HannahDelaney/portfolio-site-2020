@@ -52,7 +52,10 @@ MMMMMMMMMMWNX0OOkkOO00XNWMMMMMMMMMMMMMMM
   </ul>
 
   {% if page.page contains 'home' %} {% include svg-home-banner.html %} {% endif %}
-  {% include header.html %}
+  {% if page.layout == 'welcome-message' %}
+  {% else %}
+    {% include header.html %}
+  {% endif %}
   <main id="main" role="main">
     {{content}}
   </main>

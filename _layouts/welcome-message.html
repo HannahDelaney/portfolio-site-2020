@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="relative" style="background-color: {{page.bg-color}}">
+  <a class="absolute welcome-logo" href="/"><img src="/images/logo-graphic.svg" alt="Hannah Delaney B logo graphic."></a>
+  <img class="welcome-img img-flex" src="{{site.baseurl}}/images/{{page.banner}}" alt="{{page.banner-alt}}">
+</div>
+<div class="welcome-content">
+  <!-- <img class="pad-t i-196" src="/images/logo-icon.svg" alt=""> -->
+  <h1 class="pad-t-2 normal peta"><span class="bold block tena">Nice to meet you!</span>To the <span class="bold">{{page.h1}}</span> team</h1>
+  <p class="gutter">Thank you for having a look at my website. <br>I appreciate the time that you're taking, and I hope you like what you see!</p>
+  {% include btn.html class="push-2" link="/" btn="Enter site"%}
+</div>

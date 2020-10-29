@@ -1,0 +1,36 @@
+.welcome-img {
+  margin: auto;
+}
+
+.welcome-logo img {
+  padding: 1rem;
+}
+
+.welcome-content {
+  text-align: center;
+  min-height: calc(100vh - 20rem);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .welcome-img {
+    max-width: 50%;
+  }
+
+  .welcome-content {
+    min-height: calc(100vh - 50vw);
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .welcome-img {
+    max-width: 30%;
+  }
+
+  .welcome-content {
+    min-height: calc(100vh - 30vw);
+  }
+
+}
