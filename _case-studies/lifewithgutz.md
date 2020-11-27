@@ -57,6 +57,6 @@ final-img-3-alt: Four different screen sizes, showing different scroll heights o
 final-img-4: gutz-mobile.jpg
 final-img-4-alt: Multiple phone screens showing the various pages of the Life with Gutz website.
 web-bottom: https://www.lifewithgutz.ca
-previousurl: vitamin-b
+previousurl: camp-fortune-campaign
 nexturl: 613flea
 ---

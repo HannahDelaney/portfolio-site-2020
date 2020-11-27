@@ -62,5 +62,5 @@ final-img-4: vit-b-404.jpg
 final-img-4-alt: A laptop showing Vitamin Bee's 404 page.
 web-bottom: https://lucid-liskov-8ad05f.netlify.app/
 previousurl: 613flea
-nexturl: lifewithgutz
+nexturl: camp-fortune-campaign
 ---
