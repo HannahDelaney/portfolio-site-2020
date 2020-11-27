@@ -1,11 +1,11 @@
 ---
 layout: case-study
 order: 4
-seo-description:
+seo-description: A campaign design for the ski hill Camp Fortune to sell Season Passes. The campaign features a humourous slogan and bright colours to attract the attention of viewers.
 display-img: /images/campaign-banner.jpg
 title: "Skiing Season Pass Campaign"
 preview-img: campaign-preview.png
-preview-img-alt:
+preview-img-alt: Illustration of a skier character.
 preview-copy: A campaign for a local ski hill to sell season passes.
 preview-case-name-link: camp-fortune-campaign
 banner-img: campaign-banner.jpg
@@ -24,7 +24,7 @@ category-icons:
     cat-icon-label: MOTION
 intro-p: An advertising campaign to sell Season Passes at the ski resort Camp Fortune in Chelsea, QC. Using humour and brightly coloured illustrations, this campaign is targeted to catch the attention of skiing enthusiasts who might need incentive to make the purchase for a full season.
 client: Camp Fortune
-goal: Create a campaign design that will cover various advertising opportunities (print, web) and attract viewers to purchase a season pass at Camp Fortune.
+goal: Create a campaign design that will cover various advertising opportunities (print, web) and attract viewers to purchase a Season Pass at Camp Fortune.
 other-heading: "Favourite Detail:"
 other: Character art style of the ill-fated skiers.
 sketches-col-1: sketches-campaign-1.png
