@@ -57,5 +57,5 @@ vimeo: https://player.vimeo.com/video/484294871
 final-img-4: campaign-ad-sizes.jpg
 final-img-4-alt: All six of the various instances of the Camp Fortune Advertisements, showing the flexibility of the design.
 previousurl: vitamin-b
-nexturl: lifewithgutz
+nexturl: un-booklet
 ---

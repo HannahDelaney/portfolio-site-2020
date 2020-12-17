@@ -88,6 +88,10 @@ layout: default
     <div class="embed embed-16by9 push">
       <iframe class="embed-item" src="{{page.vimeo}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
+    {% elsif page.pdf %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.pdf}}" width="100%"></iframe>
+    </div>
     {% else %}
     <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-3}}" alt="{{page.final-img-3-alt}}">
     {% endif %}
@@ -105,7 +109,7 @@ layout: default
 
 {% if page.web-bottom %}
 <div class="text-center pad-t pad-b-2">
-  <a class="f-second giga bold" href="{{page.web-bottom}}">Visit the website!</a>
+  <a class="f-second giga bold" href="{{page.web-bottom}}">{{page.web-bottom-words}}</a>
 </div>
 {% endif %}
 

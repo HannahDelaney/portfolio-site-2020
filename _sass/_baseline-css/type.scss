@@ -259,6 +259,11 @@ small,
   line-height: 1.3rem;
 }
 
+.pico-sm {
+  font-size: .723rem;
+  line-height: 1.3rem;
+}
+
 ul {
   padding-left: 1em;
 }
@@ -651,6 +656,11 @@ legend {
 
   .pico {
     font-size: .6243rem;
+    line-height: 1.05rem;
+  }
+
+  .pico-sm {
+    font-size: .555rem;
     line-height: 1.05rem;
   }
 
@@ -1071,6 +1081,11 @@ legend {
     line-height: 1.125rem;
   }
 
+  .pico-sm {
+    font-size: .5322rem;
+    line-height: 1.125rem;
+  }
+
   ul,
   ol {
     padding-left: 0;
@@ -1485,6 +1500,11 @@ legend {
 
   .pico {
     font-size: .6243rem;
+    line-height: 1.125rem;
+  }
+
+  .pico-sm {
+    font-size: .555rem;
     line-height: 1.125rem;
   }
 
