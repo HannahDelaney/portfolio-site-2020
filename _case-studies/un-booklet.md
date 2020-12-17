@@ -1,8 +1,8 @@
 ---
 layout: case-study
 order: 5
-seo-description:
-display-img:
+seo-description: A reference booklet for people interested in learning the articles contained in the United Nations Universal Declaration of Human Rights (UDHR).
+display-img: unudhr-banner.jpg
 title: "Universal Declaration of Human Rights (UDHR)"
 preview-img: article23spread.png
 preview-img-alt: A book spread showing a man with a drawn on safety helmet and the text of the 23rd article of the UDHR.
