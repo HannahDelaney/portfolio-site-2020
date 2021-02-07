@@ -7,6 +7,29 @@
 
 .svg-banner-img {
   object-fit: cover;
+  object-position: center bottom;
   height: 100vh;
   position: fixed;
+}
+
+.scroller {
+  margin-bottom: 1em;
+  color: var(--color-white);
+  animation: scroller 2s linear infinite;
+}
+
+@keyframes scroller {
+
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-.5em);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
 }

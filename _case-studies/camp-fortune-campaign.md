@@ -6,7 +6,7 @@ display-img: /images/campaign-banner.jpg
 title: "Skiing Season Pass Campaign"
 preview-img: campaign-preview.png
 preview-img-alt: Illustration of a skier character.
-preview-copy: A campaign for a local ski hill to sell season passes.
+preview-copy: An ad campaign for a local ski hill to sell season passes.
 preview-case-name-link: camp-fortune-campaign
 banner-img: campaign-banner.jpg
 banner-img-alt: A brick wall that shows three versions of the poster design for Camp Fortune.

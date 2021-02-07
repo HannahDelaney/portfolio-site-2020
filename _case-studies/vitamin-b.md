@@ -1,12 +1,12 @@
 ---
 layout: case-study
 order: 3
-seo-description: An e-commerce website for a small family-run honey business. I designed all branding for the client, in addition to designing and coding the site.
+seo-description: An e-commerce website built with coded patterns, for a small family-run honey business. I designed all branding for the client, in addition to designing and coding the site.
 display-img: /images/vit-b-banner.jpg
 title: "Vitamin Bee"
 preview-img: home-mockup-test.png
 preview-img-alt: A laptop showing the Vitamin Bee homepage.
-preview-copy: An e-commerce site for a small family-run honey and beeswax product business.
+preview-copy: A fully coded e-commerce site built with patterns, for a small family-run honey and beeswax product business.
 preview-case-name-link: vitamin-b
 banner-img: vit-b-banner.jpg
 banner-img-alt: "A laptop showing the Vitamin Bee homepage sitting on a coffee table, with a teacup, candle and white couch in the background."
@@ -22,7 +22,7 @@ category-icons:
   - cat-icon: branding.svg
     cat-icon-alt: Branding icon
     cat-icon-label: BRANDING
-intro-p: As a project in my web development class, I was tasked with designing and building an ecommerce site selling whatever I wished to. I invented a honey business because I was interested in the style of branding I could create to accompany it.
+intro-p: As a project in my web development class, I was tasked with designing and building an e-commerce site selling whatever I wished to. I invented a honey business because I was interested in the style of branding I could create to accompany it.
 client: Vitamin Bee Honey
 goal: Develop a branded style for the company and site, as well as a pattern library for the client to pull assets from. The designs should retain a whimsical vibe but be easy to navigate for users of various ages.
 other-heading: "Website:"

@@ -6,7 +6,7 @@ display-img: /images/gutz-banner.jpg
 title: "Life with Gutz"
 preview-img: gutz-plain.png
 preview-img-alt: A laptop showing the Life with Gutz homepage.
-preview-copy: A blog website for an influencer and entrepreneur.
+preview-copy: A fully coded blog website for an influencer and entrepreneur.
 preview-case-name-link: lifewithgutz
 banner-img: gutz-banner.jpg
 banner-img-alt: "A laptop showing the Life with Gutz homepage sitting on a table next to a small stack of books and plant."

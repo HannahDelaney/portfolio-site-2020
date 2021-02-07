@@ -15,15 +15,15 @@
   position: fixed;
 }
 
-.logo {
-  display: none;
-}
+// .logo {
+//   display: none;
+// }
 
-.logo-graphic {
+.logo {
   display: block;
   position: relative;
   width: 100%;
-  max-width: 4rem;
+  max-width: 10rem;
 }
 
 .grid-bottom-align {
@@ -61,7 +61,7 @@
     display: block;
     position: relative;
     width: 100%;
-    max-width: 12rem;
+    max-width: 10rem;
   }
 
   .logo-graphic {
