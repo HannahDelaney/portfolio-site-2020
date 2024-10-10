@@ -42,15 +42,15 @@ youtubethird1: qnTFBgknvk8
 youtubethird2: T2GwRIshB3c?si=2goGkRgFVP3HnSQm
 youtubethird3: zAnALE7tsVA?si=i8RsN25UxdKIMfBJ
 motion-3-h: Brand Hype & Logo Reveals
-vidgrid-1: components/compo-wwf-colours.mp4
-vidgrid-2: components/compo-wwf-colours.mp4
-vidgrid-3: components/compo-wwf-colours.mp4
-vidgrid-4: components/compo-wwf-colours.mp4
-vidgrid-5: components/compo-wwf-colours.mp4
-vidgrid-6: components/compo-wwf-colours.mp4
-vidgrid-7: components/compo-wwf-colours.mp4
-vidgrid-8: components/compo-wwf-colours.mp4
-vidgrid-9: components/compo-wwf-colours.mp4
+vidgrid-1: brand-hypes/whitewater.mp4
+vidgrid-2: brand-hypes/compo-wwf-colours.mp4
+vidgrid-3: brand-hypes/compo-wwf-colours.mp4
+vidgrid-4: brand-hypes/compo-wwf-colours.mp4
+vidgrid-5: brand-hypes/compo-wwf-colours.mp4
+vidgrid-6: brand-hypes/compo-wwf-colours.mp4
+vidgrid-7: brand-hypes/compo-wwf-colours.mp4
+vidgrid-8: brand-hypes/compo-wwf-colours.mp4
+vidgrid-9: brand-hypes/compo-wwf-colours.mp4
 web-bottom-words: Check out my Vimeo Page! But also maybe don't because it's not that impressive!
 web-bottom: https://vimeo.com/hannahdeldesign
 previousurl: un-booklet
