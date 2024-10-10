@@ -30,19 +30,17 @@ hr {
   transform: scale(1.01);
 }
 
-.img-case {
-  padding-top: 5rem;
+.home-case-content {
+  padding: 1rem 4rem 4rem 4rem;
 }
 
-.home-case-content {
-  padding: 4rem;
+.img-case {
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
 }
 
 @media only screen and (min-width: 25em) {
 
-  .img-case {
-    padding-top: 2rem;
-  }
 
   .category-list {
     display: block;
@@ -52,12 +50,12 @@ hr {
 
 @media only screen and (min-width: 38em) {
 
-  .home-case-content {
-    padding: 3rem;
-  }
-
   .cat-h3 {
     width: auto;
+  }
+
+  .home-case-content {
+    padding: 4rem;
   }
 
 }
@@ -70,10 +68,6 @@ hr {
 
   .home-case-content {
     position: relative;
-  }
-
-  .img-case {
-    padding-top: 0;
   }
 
   .category-list {

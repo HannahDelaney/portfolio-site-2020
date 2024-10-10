@@ -1,0 +1,208 @@
+---
+layout: default
+---
+
+<img class="case-banner img-flex" src="{{site.baseurl}}/images/{{page.banner-img}}" alt="{{page.banner-img-alt}}">
+<div class="case-title pad-t-1-2 pad-b-1-2">
+  <h1 class="push-0 nina pad-side">{{page.h1}}</h1>
+  <h2 class="push-0 kilo">{{page.h2}}</h2>
+</div>
+<div class="case-icons">
+  {% for icon in page.category-icons %}
+    {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt cat-icon-label=icon.cat-icon-label %}
+  {% endfor %}
+</div>
+
+<div class="grid case-edges">
+  <div class="unit xs-1 l-1-2 gutter-2">
+    <p>{{page.intro-p}}</p>
+  </div>
+  <div class="unit xs-1 l-1-2 gutter-2 pad-b-2">
+    <h3 class="push-0 mega">{% if page.intro-list-1-h %}{{page.intro-list-1-h}}:{% endif %}</h3>
+    <p class="milli">{% if page.intro-list-1 %}{{page.intro-list-1}}{% endif %}</p>
+    <h3 class="push-0 mega">{% if page.intro-list-2-h %}{{page.intro-list-2-h}}:{% endif %}</h3>
+    <p class="milli">{% if page.intro-list-2 %}{{page.intro-list-2}}{% endif %}</p>
+    <h3 class="push-0 mega">{% if page.intro-list-3-h %}{{page.intro-list-3-h}}:{% endif %}</h3>
+    <p class="milli">{% if page.intro-list-3 %}{{page.intro-list-3}}{% endif %}</p>
+  </div>
+</div>
+
+<div class="case-edges gutter-2 grid pad-t-2">
+  <div class="unit xs-1">
+    <h3>{{page.motion-1-h}}</h3>
+  </div>
+  <div class="unit xs-1">
+    {% if page.vimeofull-1 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.vimeofull-1}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+    {% elsif page.youtubefull-1 %}
+    <div class="embed embed-1by1 push">
+      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubefull-1}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    {% elsif page.videofull-1 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videofull-1}}"autoplay loop>
+    </div>
+    {% elsif page.img-1-1 %}
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-full-1}}" alt="{{page.img-full-1-alt}}">
+    {% endif %}
+    <div class="grid-container">
+      <div class="g-2x2">
+        <h4>Client</h4>
+          <p>{{page.video-1-client}}</p>
+      </div>
+      <div class="g-2x2">
+        <h4>Date</h4>
+          <p>{{page.video-1-date}}</p>
+      </div>
+      <div class="g-2x2">
+        <h4>Role</h4>
+          <p>{{page.video-1-role}}</p>
+      </div>
+    </div>
+    <p>{{page.video-1-p}}</p>
+  </div>
+</div>
+
+<div class="grid case-edges gutter">
+  <div class="push unit xs-1 l-1-3 island">
+    <div class="embed embed-1by1">
+      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubethird1}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="push unit xs-1 l-1-3 island">
+    <div class="embed embed-1by1">
+      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubethird2}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="push unit xs-1 l-1-3 island">
+    <div class="embed embed-1by1">
+      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubethird3}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="case-edges gutter-2 grid pad-t-2">
+  <div class="unit xs-1">
+    <h3>{{page.motion-2-h}}</h3>
+  </div>
+  <div class="unit xs-1">
+    {% if page.vimeofull-2 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.vimeofull-2}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+    {% elsif page.youtubefull-2 %}
+    <div class="embed embed-1by1 push">
+      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubefull-2}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    {% elsif page.videofull-2 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videofull-2}}"autoplay loop>
+    </div>
+    {% elsif page.img-2 %}
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-full-2}}" alt="{{page.img-full-2-alt}}">
+    {% endif %}
+    <div class="grid-container">
+      <div class="g-2x2">
+        <h4>Client</h4>
+          <p>{{page.video-2-client}}</p>
+      </div>
+      <div class="g-2x2">
+        <h4>Date</h4>
+          <p>{{page.video-2-date}}</p>
+      </div>
+      <div class="g-2x2">
+        <h4>Role</h4>
+          <p>{{page.video-2-role}}</p>
+      </div>
+    </div>
+    <p>{{page.video-2-p}}</p>
+  </div>
+</div>
+
+<!-- <div class="case-edges gutter grid pad-t-2">
+  <div class="unit xs-1 l-1-2 island">
+    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/{{page.insta-3}}/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; min-width:326px; padding:0; width:calc(100% - 2px);">
+    </blockquote>
+  </div>
+  <div class="unit xs-1 l-1-2 island">
+    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/{{page.insta-4}}/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; min-width:326px; padding:0; width:calc(100% - 2px);">
+    </blockquote>
+  </div>
+</div> -->
+<script async src="//www.instagram.com/embed.js"></script>
+
+<div class="case-edges gutter grid pad-t-2">
+  <div class="unit xs-1 gutter">
+    <h3>{{page.motion-3-h}}</h3>
+  </div>
+  {% if page.vidgrid-1 %}
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-1}}">
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-2}}">
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-3}}">
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-4}}">
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-5}}">
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-6}}">
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-7}}">
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-8}}">
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-9}}">
+    </div>
+  </div>
+  {% elsif page.img-3 %}
+  <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-3}}" alt="{{page.img-3-alt}}">
+  {% endif %}
+</div>
+
+
+
+
+
+{% if page.web-bottom %}
+<div class="text-center pad-t pad-b-2">
+  <a class="f-second giga bold" href="{{page.web-bottom}}">{{page.web-bottom-words}}</a>
+</div>
+{% endif %}
+
+<div class="next grid pad-t-2 case-edges gutter-2 pad-b-2">
+  <div class="unit xs-1-2 text-left">
+    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.previousurl}}"><span class="bold">< Previous </span>{% if page.previousurlname %}{{page.previousurlname}}{% endif %}</a>
+  </div>
+  <div class="unit xs-1-2 text-right">
+    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.nexturl}}"><span class="bold">Next </span>{% if page.nexturlname %}{{page.nexturlname}}{% endif %} <span class="bold">></span></a>
+  </div>
+</div>

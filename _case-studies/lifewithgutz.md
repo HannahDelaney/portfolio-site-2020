@@ -1,9 +1,10 @@
 ---
 layout: case-study
-order: 1
+order: 7
 seo-description: A website I designed and developed with a CMS, for an entrepreneurial client who needed a site to host her blog and YouTube community.
 display-img: /images/gutz-banner.jpg
 title: "Life with Gutz"
+title-short: Life with Gutz
 preview-img: gutz-plain.png
 preview-img-alt: A laptop showing the Life with Gutz homepage.
 preview-copy: A fully coded blog website for an influencer and entrepreneur.
@@ -19,9 +20,10 @@ category-icons:
   - cat-icon: ux-ui.svg
     cat-icon-alt: UX/UI icon
     cat-icon-label: UX/UI
-intro-p: I was thrilled when I got the first email about this project. The client, Katie, approached me in need of a site to accompany the launch of her online presence and YouTube channel. She needed a site that would function as a blog and collect email subscribers, with the potential to grow along with her community.
+year: 2020
+intro-p: I was thrilled when I got the first email about this project. The client, Katie, approached me in need of a site to accompany the launch of her online presence and YouTube channel. She needed a site that would function as a blog and collect email subscribers, with the potential to grow along with her community. Design and develop a responsive online platform for a woman setting up a blog for her personal brand, using Netlify as a CMS.
 client: Life with Gutz
-goal: Design and develop a responsive online platform for a woman setting up a blog for her personal brand, using Netlify as a CMS.
+role: Web Design | Developer
 other-heading: "Website:"
 other-a: lifewithgutz.ca
 other-2: (NOTE This site is still in the final stages of approvals with the client, so her website is currently composed of placeholder content.)
@@ -48,16 +50,16 @@ extra:
   extra-img-2-alt: A laptop showing the the blog entry edit page on the Life with Gutz CMS.
   p-extra-1:
   p-extra-2: After researching the possibilities and understanding the client needs, I knew the best option was a site that I code entirely. I would be able to design with full control of the visual outcome, and set her up with a Content Management System through Netlify. This way she could easily add more content within what I would build. Having such freedom, and having my first client for a job of this scale, was very exciting.
-final-img-1: gutz-tablet.jpg
-final-img-1-alt: A tablet with a keyboard displays the website welcome banner horizontally.
-final-img-2: gutz-multi.jpg
-final-img-2-alt: A laptop, tablet and mobile screens that show different pages of the website.
-final-img-3: gutz-4screen-home.jpg
-final-img-3-alt: Four different screen sizes, showing different scroll heights of the Life with Gutz homepage.
-final-img-4: gutz-mobile.jpg
-final-img-4-alt: Multiple phone screens showing the various pages of the Life with Gutz website.
+img-1: gutz-4screen-home.jpg
+img-1-alt: Four different screen sizes, showing different scroll heights of the Life with Gutz homepage.
+img-2: gutz-tablet.jpg
+img-2-alt: A tablet with a keyboard displays the website welcome banner horizontally.
+img-3: gutz-multi.jpg
+img-3-alt: A laptop, tablet and mobile screens that show different pages of the website.
+img-4: gutz-mobile.jpg
+img-4-alt: Multiple phone screens showing the various pages of the Life with Gutz website.
 web-bottom: https://www.lifewithgutz.ca
 web-bottom-words: Visit the website!
-previousurl: un-booklet
+previousurl: video-learntocode
 nexturl: 613flea
 ---

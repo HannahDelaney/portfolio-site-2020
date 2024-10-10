@@ -21,8 +21,8 @@
   --color-grey-dark: #1e1e1e;
   --color-white: #fff;
 
-  --font-primary: Lora, serif;
-  --font-secondary: Raleway, sans-serif;
+  --font-primary: "Gelica", serif;
+  --font-secondary: "Aktiv-Grotesk-Extended", sans-serif;
   --font-special: "Swanky and Moo Moo", cursive;
 }
 
@@ -39,6 +39,7 @@ footer {
 
 body {
   overflow-x: hidden;
+  font-weight: 300;
 }
 
 .f-prim {
@@ -83,7 +84,7 @@ a {
 }
 
 p a {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 a:hover {

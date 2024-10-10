@@ -4,6 +4,7 @@ order: 5
 seo-description: A reference booklet for people interested in learning the articles contained in the United Nations Universal Declaration of Human Rights (UDHR).
 display-img: unudhr-banner.jpg
 title: "Universal Declaration of Human Rights (UDHR)"
+title-short: UDHR
 preview-img: article23spread.png
 preview-img-alt: A book spread showing a man with a drawn on safety helmet and the text of the 23rd article of the UDHR.
 preview-copy: A reference guide book for the articles of the United Nation's Universal Declaration of Human Rights.
@@ -19,12 +20,13 @@ category-icons:
   - cat-icon: illustration.svg
     cat-icon-alt: Illustration icon
     cat-icon-label: ILLUSTRATION
-intro-p: As a personal project, I decided to create my own illustrated version of the Universal Declaration of Human Rights, as a way to explore the articles in more depth, but also to make the information more accessible for others. The information contained is relevant to everybody, especially for those who still have to fight for these rights to be honoured in their lives and countries.
+year: 2020
+intro-p: As a personal project, I decided to create my own illustrated version of the Universal Declaration of Human Rights, as a way to explore the articles in more depth, but also to make the information more accessible for others. The information contained is relevant to everybody, especially for those who still have to fight for these rights to be honoured in their lives and countries. Create an illustrated guide book detailing the thirty articles of the Universal Declaration of Human Rights, for quick reference at home, work or in study.
 client: United Nations (Personal Project)
-goal: Create an illustrated guide book detailing the thirty articles of the Universal Declaration of Human Rights, for quick reference at home, work or in study.
+role: Graphic Design | Illustration
 other-heading: "References:"
 other-a: United Nations Website
-other-link: https://www.un.org/en/universal-declaration-human-rights/index.html
+other-link: https://www.un.org/en/about-us/universal-declaration-of-human-rights
 sketches-col-1: sketches-unudhr-1.jpg
 sketches-col-1-alt: Initial ideas and early layout ideas for the UN UDHR booklet.
 sketches-col-2: sketches-unudhr-2.jpg
@@ -47,16 +49,16 @@ extra:
   extra-img-2-alt: Illustration of a person bursting from an egg, the text of UDHR article one, and an illustration of two pairs of adult hands holding baby feet with a heart drawn on.
   p-extra-1: The full content of the UNDR, as well as the background information contained in my document, can be found on the United Nations website. There is an image of the official document drafted in 1948, and a PDF file of the text content. There is also an illustrated version on the site.
   p-extra-2: The illustrated version available is targeting a younger demographic. This is great, but it leaves a gap for users who are older but perhaps might still appreciate visuals to help contextualize some of the legal jargon in the document. My version is targeted towards an older demographic in tone, which covers a missing component of the available resources.
-final-img-1: articlecover.jpg
-final-img-1-alt: Thecover of the UN booklet on a grey background.
-final-img-2: articledescspread.jpg
-final-img-2-alt: A spread of the UN booklet, showing the nine people who drafted it.
-final-img-3: 30articlesimages.jpg
-final-img-3-alt: All thirty illustrations from the UN booklet on a grey background.
-final-img-4: article27spread.jpg
-final-img-4-alt: The UN booklet open to a spread showing text from article 27, and a man walking with graffiti wings drawn on.
+img-1: 30articlesimages.jpg
+img-1-alt: All thirty illustrations from the UN booklet on a grey background.
+img-2: articlecover.jpg
+img-2-alt: Thecover of the UN booklet on a grey background.
+img-3: articledescspread.jpg
+img-3-alt: A spread of the UN booklet, showing the nine people who drafted it.
+img-4: article27spread.jpg
+img-4-alt: The UN booklet open to a spread showing text from article 27, and a man walking with graffiti wings drawn on.
 web-bottom: /images/brown-hannah-020-passion-project.pdf
 web-bottom-words: View the full PDF document!
 previousurl: camp-fortune-campaign
-nexturl: lifewithgutz
+nexturl: video-learntocode
 ---

@@ -1,7 +1,9 @@
 <div class="case case-bg">
   <div class="grid grid-middle">
-    <div class="unit xs-1 unit-push-l-1-2 l-1-2">
-      <img class="img-flex img-case" src="{{site.baseurl}}/images/{{preview.preview-img}}" alt="{{preview.preview-img-alt}}">
+    <div class="unit xs-1 unit-push-l-1-2 l-1-2 pad-t pad-b">
+      <a href="{{site.baseurl}}/case-studies/{{preview.preview-case-name-link}}/">
+        <img class="img-flex img-case" src="{{site.baseurl}}/images/{{preview.preview-img}}" alt="{{preview.preview-img-alt}}">
+      </a>
     </div>
     <div class="unit xs-1 unit-pull-l-1-2 l-1-2 case-study">
       <div class="home-case-content">
@@ -9,12 +11,12 @@
         <hr>
         <p>{{preview.preview-copy}}</p>
         <div class="category-list push">
-          <h3 class="cat-h3 bold push-r">Categories:</h3>
+          <!--<h3 class="cat-h3 bold push-r">Categories:</h3>-->
           {% for icon in preview.category-icons %}
             {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt cat-icon-label=icon.cat-icon-label %}
           {% endfor %}
         </div>
-        <a class="btn btn-main" href="{{site.baseurl}}/case-studies/{{preview.preview-case-name-link}}/">View Case Study</a>
+        <a class="btn btn-main" href="{{site.baseurl}}/case-studies/{{preview.preview-case-name-link}}/">View {{preview.title-short}} Case Study</a>
       </div>
     </div>
   </div>

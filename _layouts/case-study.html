@@ -15,13 +15,14 @@ layout: default
 
 <div class="grid case-edges">
   <div class="unit xs-1 l-1-2 gutter-2">
-    <p>{{page.intro-p}}</p>
+    <p><span class="bold">{% if page.year %}{{page.year}}</span> • {% endif %}{{page.intro-p}}</p>
   </div>
   <div class="unit xs-1 l-1-2 gutter-2 pad-b-2">
     <h3 class="push-0 mega">Client:</h3>
-    <p class="milli">{{page.client}}</p>
-    <h3 class="push-0 mega">Goal:</h3>
-    <p class="milli">{{page.goal}}</p>
+    <p class="milli push-0">{% if page.client %}{{page.client}}{% endif %}{% if page.client-link %}<a href="{{page.client-link}}">{{page.client-a}}</a>{% endif %}</p>
+    <p class="milli italic">{% if page.middlepersonthanks %}{{page.middlepersonthanks}}{% endif %} {% if page.middleperson-link %}<a href="{{page.middleperson-link}}">{{page.middleperson}}</a>{% endif %}</p>
+    <h3 class="push-0 mega">Role:</h3>
+    <p class="milli">{{page.role}}</p>
     <h3 class="push-0 mega">{{page.other-heading}}</h3>
     <p class="milli push-0">{{page.other}}{% if page.other-link %}<a href="{{page.other-link}}">{{page.other-a}}</a>{% endif %}</p>
     <p class="milli">{{page.other-2}}{% if page.other-link-2 %}<a href="{{page.other-link-2}}">{{page.other-a-2}}</a>{% endif %}</p>
@@ -42,7 +43,7 @@ layout: default
     <h3>Inspiration</h3>
   </div>
   <div class="unit xs-1 l-1-2 pad-right text-center push-2">
-    <img class="img-flex" src="{{site.baseurl}}/images/{{page.inspiration-img}}" alt="{{page.inspiration-img-alt}}">
+    <img class="img-flex" src="{{site.baseurl}}/images/inspo/{{page.inspiration-img}}" alt="{{page.inspiration-img-alt}}">
   </div>
   <div class="unit xs-1 l-1-2 pad-left">
       <p>{{page.p-inspo}}</p>
@@ -54,11 +55,23 @@ layout: default
     <h3>Components</h3>
   </div>
   <div class="unit xs-1 l-1-2 pad-right push-2">
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.compo-img-1}}" alt="{{page.compo-img-1-alt}}">
+    {% if page.video-compo-1 %}
+    <div class="push embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/components/{{page.video-compo-1}}" autoplay loop></video>
+    </div>
+    {% elsif page.compo-img-1 %}
+      <img class="push img-flex" src="{{site.baseurl}}/images/components/{{page.compo-img-1}}" alt="{{page.compo-img-1-alt}}">
+    {% endif %}
     <p>{{page.p-compo-1}}</p>
   </div>
   <div class="unit xs-1 l-1-2 pad-left push-2">
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.compo-img-2}}" alt="{{page.compo-img-2-alt}}">
+    {% if page.video-compo-2 %}
+    <div class="push embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/components/{{page.video-compo-2}}" autoplay loop></video>
+    </div>
+    {% elsif page.compo-img-2 %}
+      <img class="push img-flex" src="{{site.baseurl}}/images/components/{{page.compo-img-2}}" alt="{{page.compo-img-2-alt}}">
+    {% endif %}
     <p>{{page.p-compo-2}}</p>
   </div>
 </div>
@@ -84,26 +97,64 @@ layout: default
     <h3>Final Results!</h3>
   </div>
   <div class="unit xs-1">
-    {% if page.vimeo %}
-    <div class="embed embed-16by9 push">
-      <iframe class="embed-item" src="{{page.vimeo}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    {% if page.video-1 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" autoplay loop>
+        <source src="{{site.baseurl}}/images/{{page.video-1}}"></source>
+      </video>
     </div>
-    {% elsif page.pdf %}
+    {% elsif page.pdf-1 %}
     <div class="embed embed-16by9 push">
-      <iframe class="embed-item" src="{{page.pdf}}" width="100%"></iframe>
+      <iframe class="embed-item" src="{{page.pdf-1}}" width="100%"></iframe>
     </div>
     {% else %}
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-3}}" alt="{{page.final-img-3-alt}}">
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-1}}" alt="{{page.img-1-alt}}">
     {% endif %}
   </div>
   <div class="unit xs-1 l-1-2 pad-right">
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-1}}" alt="{{page.final-img-1-alt}}">
+    {% if page.video-2 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" autoplay loop>
+        <source src="{{site.baseurl}}/images/{{page.video-2}}"></source>
+      </video>
+    </div>
+    {% elsif page.pdf-2 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.pdf-2}}" width="100%"></iframe>
+    </div>
+    {% else %}
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-2}}" alt="{{page.img-2-alt}}">
+    {% endif %}
   </div>
   <div class="unit xs-1 l-1-2 pad-left">
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-2}}" alt="{{page.final-img-2-alt}}">
+    {% if page.video-3 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" autoplay loop>
+        <source src="{{site.baseurl}}/images/{{page.video-3}}"></source>
+      </video>
+    </div>
+    {% elsif page.pdf-3 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.pdf-3}}" width="100%"></iframe>
+    </div>
+    {% else %}
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-3}}" alt="{{page.img-3-alt}}">
+    {% endif %}
   </div>
   <div class="unit xs-1">
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.final-img-4}}" alt="{{page.final-img-4-alt}}">
+    {% if page.video-4 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" autoplay loop>
+        <source src="{{site.baseurl}}/images/{{page.video-4}}"></source>
+      </video>
+    </div>
+    {% elsif page.pdf-4 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.pdf-4}}" width="100%"></iframe>
+    </div>
+    {% else %}
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-4}}" alt="{{page.img-4-alt}}">
+    {% endif %}
   </div>
 </div>
 
@@ -115,9 +166,9 @@ layout: default
 
 <div class="next grid pad-t-2 case-edges gutter-2 pad-b-2">
   <div class="unit xs-1-2 text-left">
-    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.previousurl}}"><span class="bold"><</span> Previous</a>
+    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.previousurl}}"><span class="bold">< Previous </span>{% if page.previousurlname %}{{page.previousurlname}}{% endif %}</a>
   </div>
   <div class="unit xs-1-2 text-right">
-    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.nexturl}}">Next <span class="bold">></span></a>
+    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.nexturl}}"><span class="bold">Next </span>{% if page.nexturlname %}{{page.nexturlname}}{% endif %} <span class="bold">></span></a>
   </div>
 </div>
