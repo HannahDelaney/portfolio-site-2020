@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 7
+order: 4
 seo-description: A website I designed and developed with a CMS, for an entrepreneurial client who needed a site to host her blog and YouTube community.
 display-img: /images/gutz-banner.jpg
 title: "Life with Gutz"
@@ -58,8 +58,8 @@ img-3: gutz-multi.jpg
 img-3-alt: A laptop, tablet and mobile screens that show different pages of the website.
 img-4: gutz-mobile.jpg
 img-4-alt: Multiple phone screens showing the various pages of the Life with Gutz website.
-web-bottom: https://www.lifewithgutz.ca
-web-bottom-words: Visit the website!
-previousurl: video-learntocode
-nexturl: 613flea
+previousurl: skill-motion
+previousurlname: Motion Lookbook
+nexturl: un-booklet
+nexturlname: UDHR Booklet
 ---

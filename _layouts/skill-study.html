@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
-
+{% if page.banner-img %}
 <img class="case-banner img-flex" src="{{site.baseurl}}/images/{{page.banner-img}}" alt="{{page.banner-img-alt}}">
+{% elsif page.banner-vid %}
+  <video class="case-banner img-flex" src="{{site.baseurl}}/images/{{page.banner-vid}}" loop autoplay></video>
+{% endif %}
 <div class="case-title pad-t-1-2 pad-b-1-2">
   <h1 class="push-0 nina pad-side">{{page.h1}}</h1>
-  <h2 class="push-0 kilo">{{page.h2}}</h2>
+  <h2 class="push-0 kilo gutter">{{page.h2}}</h2>
 </div>
 <div class="case-icons">
   {% for icon in page.category-icons %}
@@ -27,170 +30,268 @@ layout: default
   </div>
 </div>
 
-<div class="case-edges gutter-2 grid pad-t-2">
-  <div class="unit xs-1">
+<div class="case-edges gutter grid pad-t-2">
+  <div class="unit xs-1 gutter">
     <h3>{{page.motion-1-h}}</h3>
   </div>
-  <div class="unit xs-1">
-    {% if page.vimeofull-1 %}
-    <div class="embed embed-16by9 push">
-      <iframe class="embed-item" src="{{page.vimeofull-1}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
-    {% elsif page.youtubefull-1 %}
-    <div class="embed embed-1by1 push">
-      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubefull-1}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    {% elsif page.videofull-1 %}
+  {% if page.vidgrid-1 %}
+  <div class="unit xs-1 m-1-2 l-1-3 island">
     <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videofull-1}}"autoplay loop>
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-1}}" loop controls></video>
     </div>
-    {% elsif page.img-1-1 %}
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-full-1}}" alt="{{page.img-full-1-alt}}">
-    {% endif %}
-    <div class="grid-container">
-      <div class="g-2x2">
-        <h4>Client</h4>
-          <p>{{page.video-1-client}}</p>
-      </div>
-      <div class="g-2x2">
-        <h4>Date</h4>
-          <p>{{page.video-1-date}}</p>
-      </div>
-      <div class="g-2x2">
-        <h4>Role</h4>
-          <p>{{page.video-1-role}}</p>
-      </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-1}}</h4>
+      <p style="margin: 0">{{page.motion-1-1-year}}</p>
     </div>
-    <p>{{page.video-1-p}}</p>
   </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-2}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-2}}</h4>
+      <p style="margin: 0">{{page.motion-1-2-year}}</p>
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-3}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-3}}</h4>
+      <p style="margin: 0">{{page.motion-1-3-year}}</p>
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-4}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-4}}</h4>
+      <p style="margin: 0">{{page.motion-1-4-year}}</p>
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-5}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-5}}</h4>
+      <p style="margin: 0">{{page.motion-1-5-year}}</p>
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-6}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-6}}</h4>
+      <p style="margin: 0">{{page.motion-1-6-year}}</p>
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-7}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-7}}</h4>
+      <p style="margin: 0">{{page.motion-1-7-year}}</p>
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-8}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-8}}</h4>
+      <p style="margin: 0">{{page.motion-1-8-year}}</p>
+    </div>
+  </div>
+  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-9}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-1-h-9}}</h4>
+      <p style="margin: 0">{{page.motion-1-9-year}}</p>
+    </div>
+  </div>
+  {% elsif page.img-3 %}
+  <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-1}}" alt="{{page.img-1-alt}}">
+  {% endif %}
 </div>
 
-<div class="grid case-edges gutter">
-  <div class="push unit xs-1 l-1-3 island">
+<div class="grid case-edges gutter pad-t-2">
+  <div class="unit xs-1 gutter">
+    <h3>{{page.motion-2-h}}</h3>
+  </div>
+  <div class="push unit xs-1 m-1-2 l-1-3 gutter">
     <div class="embed embed-1by1">
       <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubethird1}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="push unit xs-1 l-1-3 island">
+  <div class="push unit xs-1 m-1-2 l-1-3 gutter">
     <div class="embed embed-1by1">
       <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubethird2}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="push unit xs-1 l-1-3 island">
+  <div class="push unit xs-1 m-1-2 l-1-3 gutter">
     <div class="embed embed-1by1">
       <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubethird3}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
+  <div class="unit xs-1 l-1-3 gutter">
+    <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-2-client}}</h4>
+    <p>{{page.video-2-date}}</p>
+  </div>
+  <p class="unit xs-1 l-2-3 gutter">{{page.video-2-p}}</p>
 </div>
-
-<div class="case-edges gutter-2 grid pad-t-2">
-  <div class="unit xs-1">
-    <h3>{{page.motion-2-h}}</h3>
-  </div>
-  <div class="unit xs-1">
-    {% if page.vimeofull-2 %}
-    <div class="embed embed-16by9 push">
-      <iframe class="embed-item" src="{{page.vimeofull-2}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
-    {% elsif page.youtubefull-2 %}
-    <div class="embed embed-1by1 push">
-      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubefull-2}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    {% elsif page.videofull-2 %}
-    <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videofull-2}}"autoplay loop>
-    </div>
-    {% elsif page.img-2 %}
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-full-2}}" alt="{{page.img-full-2-alt}}">
-    {% endif %}
-    <div class="grid-container">
-      <div class="g-2x2">
-        <h4>Client</h4>
-          <p>{{page.video-2-client}}</p>
-      </div>
-      <div class="g-2x2">
-        <h4>Date</h4>
-          <p>{{page.video-2-date}}</p>
-      </div>
-      <div class="g-2x2">
-        <h4>Role</h4>
-          <p>{{page.video-2-role}}</p>
-      </div>
-    </div>
-    <p>{{page.video-2-p}}</p>
-  </div>
-</div>
-
-<!-- <div class="case-edges gutter grid pad-t-2">
-  <div class="unit xs-1 l-1-2 island">
-    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/{{page.insta-3}}/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; min-width:326px; padding:0; width:calc(100% - 2px);">
-    </blockquote>
-  </div>
-  <div class="unit xs-1 l-1-2 island">
-    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/{{page.insta-4}}/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:100%; min-width:326px; padding:0; width:calc(100% - 2px);">
-    </blockquote>
-  </div>
-</div> -->
-<script async src="//www.instagram.com/embed.js"></script>
 
 <div class="case-edges gutter grid pad-t-2">
   <div class="unit xs-1 gutter">
     <h3>{{page.motion-3-h}}</h3>
   </div>
-  {% if page.vidgrid-1 %}
-  <div class="unit xs-1 m-1-2 l-1-3 island">
+    <div class="unit xs-1 m-1-2 l-1-3 island">
     <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-1}}" controls>
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vid-3-1}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-3-1-h}}</h4>
+      <p style="margin: 0">{{page.motion-3-1-year}}</p>
     </div>
   </div>
   <div class="unit xs-1 m-1-2 l-1-3 island">
     <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-2}}" controls>
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vid-3-2}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-3-2-h}}</h4>
+      <p style="margin: 0">{{page.motion-3-2-year}}</p>
     </div>
   </div>
   <div class="unit xs-1 m-1-2 l-1-3 island">
     <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-3}}" controls>
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vid-3-3}}" loop controls></video>
+    </div>
+    <div class="unit xs-1 pad-t">
+      <h4 style="margin: 0" class="normal">{{page.motion-3-3-h}}</h4>
+      <p style="margin: 0">{{page.motion-3-3-year}}</p>
     </div>
   </div>
-  <div class="unit xs-1 m-1-2 l-1-3 island">
-    <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-4}}" controls>
-    </div>
-  </div>
-  <div class="unit xs-1 m-1-2 l-1-3 island">
-    <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-5}}" controls>
-    </div>
-  </div>
-  <div class="unit xs-1 m-1-2 l-1-3 island">
-    <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-6}}" controls>
-    </div>
-  </div>
-  <div class="unit xs-1 m-1-2 l-1-3 island">
-    <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-7}}" controls>
-    </div>
-  </div>
-  <div class="unit xs-1 m-1-2 l-1-3 island">
-    <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-8}}" controls>
-    </div>
-  </div>
-  <div class="unit xs-1 m-1-2 l-1-3 island">
-    <div class="embed embed-16by9">
-      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.vidgrid-9}}" controls>
-    </div>
-  </div>
-  {% elsif page.img-3 %}
-  <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-3}}" alt="{{page.img-3-alt}}">
-  {% endif %}
+  <p class="unit xs-1 gutter">{{page.video-3-p}}</p>
 </div>
 
+<div class="case-edges gutter-2 grid pad-t-2">
+  <div class="unit xs-1">
+    <h3>{{page.motion-4-h}}</h3>
+  </div>
+  <div class="unit xs-1">
+    {% if page.vimeofull-4 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.vimeofull-4}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+    {% elsif page.youtubefull-4 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubefull-4}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    {% elsif page.videofull-4 %}
+    <div class="embed embed-16by9 push">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videofull-4}}" controls></video>
+    </div>
+    {% elsif page.img-1-1 %}
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-full-1}}" alt="{{page.img-full-4-alt}}">
+    {% endif %}
+  </div>
+  <div class="unit xs-1 l-1-3">
+    <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-4-client}}</h4>
+    <p>{{page.video-4-date}}</p>
+  </div>
+  <p class="unit xs-1 l-2-3">{{page.video-4-p}}</p>
+</div>
 
+<div class="case-edges gutter-2 grid pad-t-2">
+  <div class="unit xs-1 m-2-3">
+    <h3>{{page.motion-5-h}}</h3>
+  </div>
+  <div class="unit xs-1">
+    {% if page.vimeofull-5 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.vimeofull-5}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+    {% elsif page.youtubefull-5 %}
+    <div class="embed embed-1by1 push">
+      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubefull-5}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    {% elsif page.videofull-5 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videofull-5}}"autoplay loop></video>
+    </div>
+    {% elsif page.img-5-1 %}
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-full-5}}" alt="{{page.img-full-5-alt}}">
+    {% endif %}
+  </div>
+  <div class="unit xs-1 l-1-3">
+    <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-5-client}}</h4>
+    <p>{{page.video-5-date}}</p>
+  </div>
+  <p class="unit xs-1 l-2-3">{{page.video-5-p}}</p>
+</div>
 
+<div class="case-edges gutter-2 grid pad-t-2">
+  <div class="unit xs-1">
+    <h3>{{page.motion-6-h}}</h3>
+  </div>
+  <div class="unit xs-1">
+    {% if page.vimeofull-6 %}
+    <div class="embed embed-16by9 push">
+      <iframe class="embed-item" src="{{page.vimeofull-6}}" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+    {% elsif page.youtubefull-6 %}
+    <div class="embed embed-1by1 push">
+      <iframe class="embed-item" src="https://www.youtube.com/embed/{{page.youtubefull-6}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    {% elsif page.videofull-6 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videofull-6}}"autoplay loop></video>
+    </div>
+    {% elsif page.img-6 %}
+    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-full-6}}" alt="{{page.img-full-6-alt}}">
+    {% endif %}
+  </div>
+  <div class="unit xs-1 l-1-3">
+    <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-6-client}}</h4>
+    <p>{{page.video-6-date}}</p>
+  </div>
+  <p class="unit xs-1 l-2-3">{{page.video-6-p}}</p>
+</div>
 
+<!-- <div class="gutter">
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
+</div> -->
+
+<!-- Three Coloum method of listing client date and role -->
+<!-- <div class="unit xs-1 gutter">
+  <div class="grid">
+    <div class="unit xs-1 m-1-3 l-1-3">
+      <h4>Client</h4>
+        <p style="margin-right:2.5rem">{{page.video-2-client}}</p>
+    </div>
+    <div class="unit xs-1-2 m-1-3 l-1-3">
+      <h4>Date</h4>
+        <p>{{page.video-2-date}}</p>
+    </div>
+    <div class="unit xs-1-2 m-1-3 l-1-3">
+      <h4>Role</h4>
+        <p>{{page.video-2-role}}</p>
+    </div>
+  </div>
+  <p>{{page.video-2-p}}</p>
+</div> -->
 
 {% if page.web-bottom %}
 <div class="text-center pad-t pad-b-2">
@@ -200,9 +301,9 @@ layout: default
 
 <div class="next grid pad-t-2 case-edges gutter-2 pad-b-2">
   <div class="unit xs-1-2 text-left">
-    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.previousurl}}"><span class="bold">< Previous </span>{% if page.previousurlname %}{{page.previousurlname}}{% endif %}</a>
+    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.previousurl}}"><span class="material-symbols-outlined valign-middle">arrow_back</span><span class="bold valign-middle"> Previous </span><span class="valign-middle">{% if page.previousurlname %}| {{page.previousurlname}}{% endif %}</span></a>
   </div>
   <div class="unit xs-1-2 text-right">
-    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.nexturl}}"><span class="bold">Next </span>{% if page.nexturlname %}{{page.nexturlname}}{% endif %} <span class="bold">></span></a>
+    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.nexturl}}"><span class="bold valign-middle">Next </span><span class="valign-middle">{% if page.nexturlname %}| {{page.nexturlname}} {% endif %}</span><span class="material-symbols-outlined valign-middle">arrow_forward</span></a>
   </div>
 </div>

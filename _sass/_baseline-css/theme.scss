@@ -67,6 +67,25 @@ h6 {
   font-family: var(--font-secondary);
 }
 
+h2,
+h4 {
+  font-weight: normal;
+}
+
+h2 {
+  letter-spacing: 0.07rem;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h6 {
+  font-style: italic;
+  font-weight: normal;
+}
+
 ul,
 ol,
 dl {
@@ -89,6 +108,10 @@ p a {
 
 a:hover {
   color: var(--color-black);
+}
+
+p .bold {
+  font-weight: 500;
 }
 
 // blockquote {

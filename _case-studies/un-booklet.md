@@ -59,6 +59,8 @@ img-4: article27spread.jpg
 img-4-alt: The UN booklet open to a spread showing text from article 27, and a man walking with graffiti wings drawn on.
 web-bottom: /images/brown-hannah-020-passion-project.pdf
 web-bottom-words: View the full PDF document!
-previousurl: camp-fortune-campaign
-nexturl: video-learntocode
+previousurl: lifewithgutz
+previousurlname: Life with Gutz Website
+nexturl: wwf-canada
+nexturlname: WWF-Canada
 ---
