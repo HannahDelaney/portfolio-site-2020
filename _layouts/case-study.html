@@ -86,7 +86,13 @@ layout: default
     <h3>{{page.extra.extra-heading}}</h3>
   </div>
   <div class="unit xs-1 l-1-2 pad-right push-2">
+    {% if page.extra.extra-img-1 %}
     <img class="push img-flex" src="{{site.baseurl}}/images/{{page.extra.extra-img-1}}" alt="{{page.extra.extra-img-1-alt}}">
+    {% elsif page.extra.extra-video-1 %}
+      <div class="push embed embed-16by9">
+        <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.extra.extra-video-1}}" autoplay loop></video>
+      </div>
+    {% endif %}
     <p>{{page.extra.p-extra-1}}</p>
   </div>
   <div class="unit xs-1 l-1-2 pad-left push-2">

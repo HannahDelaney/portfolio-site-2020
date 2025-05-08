@@ -5,10 +5,10 @@ seo-description: lorem
 display-img: unudhr-banner.jpg
 title: "Motion Lookbook"
 title-short: Motion
-preview-img: qcc-giphy.gif
+preview-img: lil-guy-2.gif
 preview-img-alt: lorem
 preview-copy: An overarching look at various motion pieces across multiple clients.
-preview-case-name-link: skill-motion
+preview-case-name-link: motion
 
 banner-vid: banner-vid-test.mp4
 h1: Motion Lookbook

@@ -26,7 +26,7 @@ category-icons:
     cat-icon-alt: Illustration icon
     cat-icon-label: ILLUSTRATION
 year: 2023
-intro-p: Each year, the Canadian chapter of the World Wildlife Fund (WWF-Canada) funs a campaign to sell true-to-life plush toys and apparel, proceeds of which go towards preserving the real world habitats of the animals featured. Working with product I've enjoyed on a personal level, an iconic brand, and getting to work on something charitable, are three ingredients for my kind of project!
+intro-p: Each year, the Canadian chapter of the World Wildlife Fund (WWF-Canada) funds a campaign to sell true-to-life plush toys and apparel, proceeds of which go towards preserving the real world habitats of the animals featured. Working with product I've enjoyed on a personal level, an iconic brand, and getting to work on something charitable, are three ingredients for my kind of project!
 client-a: World Wildlife Fund - Canada
 client-link: https://wwf.ca/
 middlepersonthanks: All work done through
@@ -41,7 +41,7 @@ sketches-col-2: sketches-wwf-2.jpg
 sketches-col-2-alt: WWF sketches, of animation layouts and foliage ideas.
 inspiration-img: inspiration-wwf.jpg
 inspiration-img-alt: Image of plush penguin near a window, with a reflection of a real penguin in the glass.
-p-inspo: One of our early project goals was to emphasize the "true-to-life" features of the plush. The original idea was to show home scenarios, with a reflection of a real animal to show just how accurate the toys are. This concept was eventually altered to focus primarily on the plush in real world home environments, to tie into the "Bring Wildlife Home" tagline the writing team settled on. My focus among a team of designers was to create the imagery of the plush in these environments, digital assets, and all animated media.
+p-inspo: A project goal that was established early was to emphasize the "true-to-life" features of the plush. The initial idea was to show home scenarios, with a reflection of a real animal to show just how accurate the toys are. This concept was eventually altered to focus primarily on the plush in real world home environments, to tie into the "Bring Wildlife Home" tagline the writing team settled on. My focus among a team of designers was to create the imagery of the plush in these environments, digital assets, and all animated media.
 video-compo-1: compo-wwf-colours.mp4
 compo-img-2: compo-wwf-foliage.jpg
 compo-img-2-alt: Collection of illustrated foliage samples used in the campaign.

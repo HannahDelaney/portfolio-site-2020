@@ -41,25 +41,24 @@ compo-img-1: compo-qcc-1.jpg
 compo-img-1-alt:
 compo-img-2: compo-qcc-2.jpg
 compo-img-2-alt:
-p-compo-1: The Otters have a fabulous logo established, and I wanted to make sure to use the same colouring in the tournament logo. To stay within their established brand style, I reproduced versions of the logo otter and this other existing otter image for my new illustrations and motion pieces.
+p-compo-1: The Otters have a great logo established, and I used the same colouring in the tournament logo to stay within their established brand style. I reproduced versions of the logo otter and this other existing otter image for my new illustrations and motion pieces.
 p-compo-2: The logo uses an altered version of the font Lato, as do the general tournament graphics. The themes present throughout the imagery used are a mixture of Ottawa imagery, pride imagery, hockey imagery, and otters!
 extra:
-  extra-heading: Adding Motion
-  extra-img-1: qcc-giphy.gif
-  extra-img-1-alt:
-  extra-video-2: qcc-reveal.mp4
-  p-extra-1: As part of their full social package, I suggested using GIPHY to host some of the animations the team was interested in seeing. That way they could get social engagement from players during (and after!) the tournament. Look them up on GIPHY with the search term "Ottawa Otters"!
-  p-extra-2: Once we got talking about animated otters and fun ideas for what they could do, the team asked about revealing the logo on instagram with an animation of an otter shooting a puck towards the viewer, before the logo comes into view. I was only too happy to oblige.
-img-1: wwf-plants.jpg
-img-1-alt: lorem
-img-2: wwf-plants.jpg
+  extra-heading: Branding beyond the weekend
+  extra-video-1: qcc-reveal.mp4
+  extra-img-2: qcc-otter-logo-spin.gif
+  extra-img-2-alt:
+  p-extra-1: After the success of the tournament weekend, I was approached again about providing social media templates for the organization so they could establish a more cohesive presence on their instagram page.
+  p-extra-2: In the end, we worked together to create an array of templates for the team to use, as well as pinned posts and other featured post templates.
+video-1: qcc-reveal.mp4
+img-2: qcc-swag-1.jpg
 img-2-alt: lorem
-img-3: wwf-plants.jpg
+img-3: qcc-hannah-banner.jpg
 img-3-alt: lorem
-img-4: wwf-plants.jpg
+img-4: qcc-savethedate-1.jpg
 img-4-alt: lorem
 previousurl: wwf-canada
 previousurlname: WWF-Canada
-nexturl: skill-motion
+nexturl: motion
 nexturlname: Motion Lookbook
 ---

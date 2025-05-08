@@ -27,4 +27,5 @@ const caseTitle = document.querySelector('.case-title');
 if (caseTitle) {
   const titleHeight = caseTitle.offsetHeight;
   $('.case-banner').css("height", `calc(100vh - ${titleHeight + navHeight}px)`);
+  console.log('sup my homies')
 }
