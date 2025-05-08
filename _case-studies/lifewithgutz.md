@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 4
+order: 6
 seo-description: A website I designed and developed with a CMS, for an entrepreneurial client who needed a site to host her blog and YouTube community.
 display-img: /images/gutz-banner.jpg
 title: "Life with Gutz"
