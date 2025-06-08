@@ -5,13 +5,11 @@ seo-description: A multi-channel campaign promoting holiday gifts for the Canadi
 display-img: unudhr-banner.jpg
 title: "World Wildlife Fund Canada"
 title-short: WWF-Canada
-preview-img: wwf-preview-image-2.png
+preview-img: wwf-preview-image-3.png
 preview-img-alt: A plush panda bear, panda socks and a bamboo illustration.
 preview-copy: Multi-channel assets for holiday gift giving campaign.
-preview-case-name-link: wwf-canada
+preview-case-name-link: case-studies/wwf-canada
 banner-vid: wwf-banner.mp4
-
-banner-img-alt: "A plush cheetah sitting next to a wrapping gift, with a fireplace in the background."
 
 h1: World Wildlife Fund Canada
 h2: Multi-channel assets for holiday gift giving campaign.
@@ -50,20 +48,21 @@ p-compo-2: As an educational resource, WWF-Canada always depict animals in a sci
 extra:
   extra-heading: Online and Out of Home
   extra-img-1: wwf-billboard.jpg
-  extra-img-1-alt:
+  extra-img-1-alt: Billboard design with plush snow leopard and lemur, in front of tall city buildings.
   extra-img-2: wwf-programmatic-2.jpg
-  extra-img-2-alt:
+  extra-img-2-alt: Programmatic non-skippable YouTube ad placement, shown on a laptop while hands type.
   p-extra-1: The scale of this campaign required out of home (OOH) assets. Traditional and digital billboards, as well as smaller format screens with custom QR codes were used, to direct viewers towards the online shop.
   p-extra-2: Programmatic ads were used to further the reach of the campaign online. The team produced assets for more than fifteen different targetted marketing media buy companies, and more than ten OOH environments. As the sole motion designer on this project, I was kept very busy!
 video-1: wwf-screens.mp4
 img-2: wwf-gas-mockup.jpg
-img-2-alt: lorem
+img-2-alt: Programmatic ad placement of plush panda, fennec fox and jaguar with a QR code, on a screen near petrol gas pumps.
 img-3: wwf-gym-mockup.jpg
-img-3-alt: lorem
+img-3-alt: Programmatic ad placement of plush polar bear, flamingo and cheetah with a QR code, shown on a screen above a man running on a treadmill in a shared gym.
 img-4: wwf-social-digital-posts.jpg
-img-4-alt: lorem
-previousurl: un-booklet
-previousurlname: UDHR Booklet
-nexturl: ottawapridehockey
-nexturlname: Ottawa Pride Hockey
+img-4-alt: Angled grid of multiple social post assets, showing campaign tagline and various plush animals.
+
+previousurl: galleries/illustration
+previousurlname: Illustration Gallery
+nexturl: case-studies/ottawapridehockey
+nexturlname: Pride Hockey
 ---

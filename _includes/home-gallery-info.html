@@ -1,0 +1,22 @@
+<div class="case case-bg">
+  <div class="grid grid-middle">
+    <div class="unit xs-1 unit-push-l-1-2 l-1-2 pad-t pad-b">
+      <a href="{{site.baseurl}}/{{preview.preview-case-name-link}}/">
+        <img class="img-flex img-case" src="{{site.baseurl}}/images/{{preview.preview-img}}" alt="{{preview.preview-img-alt}}">
+      </a>
+    </div>
+    <div class="unit xs-1 unit-pull-l-1-2 l-1-2 case-study">
+      <div class="home-case-content">
+        <h2 class="font-normal giga push-1-4">Gallery: <div class="exa bold">{{preview.title}}</div></h2>
+        <hr>
+        <p>{{preview.preview-copy}}</p>
+        <div class="category-list push">
+          {% for icon in preview.category-icons %}
+            {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt cat-icon-label=icon.cat-icon-label %}
+          {% endfor %}
+        </div>
+        <a class="btn btn-main" href="{{site.baseurl}}/{{preview.preview-case-name-link}}/">View {{preview.title-short}} Gallery</a>
+      </div>
+    </div>
+  </div>
+</div>

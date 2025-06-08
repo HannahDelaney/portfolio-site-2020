@@ -2,7 +2,7 @@
 layout: default
 titleAfter: Graphic Design and Illustration
 page: home
-seo-description: I am a graphic designer and illustrator based in Ottawa, ON, Canada. I specialize in web design, branding, and finding the perfect creative solution.
+seo-description: I am a graphic designer and illustrator based in Wellington, Aotearoa New Zealand. I specialize in motion, illlustration, and web design, along with finding the perfect creative solution.
 display-img: /images/banner.svg
 ---
 
@@ -13,9 +13,15 @@ display-img: /images/banner.svg
     {% include home-case-info.html %}
   {% endfor %}
 </section>
+{% assign previews = site.galleries | sort: "order" %}
+<section>
+  {% for preview in previews %}
+    {% include home-gallery-info.html %}
+  {% endfor %}
+</section>
 <div class="h2-home tight-edges pad-b-2">
-  <img class="push" src="{{site.baseurl}}/images/logo-icon.svg" alt="">
-  <h2 class="font-normal">Just for Fun!</h2>
+  <img class="push img-flex" src="{{site.baseurl}}/images/lil-guy-2.gif" alt="Strange purple creature with bushy hair peeks out of a round hole containing a moving galaxy, staring in curiousity before being startled and hiding again.">
+  <h2 class="font-normal">Just for Fun</h2>
   <p class="gutter">Sometimes I do projects just for the fun of it. I might be looking for inspiration, or interested in trying something new.</p>
   {% include btn-ghost.html class="push-2" link="/fun/" btn="Check it out!" %}
 </div>

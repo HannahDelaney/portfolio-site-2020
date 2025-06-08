@@ -6,6 +6,9 @@ collections:
   case-studies:
     output: true
     permalink: /:collection/:path/
+  galleries:
+    output: true
+    permalink: /:collection/:path/
   welcome-message:
     output: true
     permalink: /:path/

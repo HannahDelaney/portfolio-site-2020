@@ -112,7 +112,7 @@ layout: default
   <div class="unit xs-1">
     <h3>Final Results!</h3>
   </div>
-  <div class="unit xs-1">
+  <div class="unit xs-1 push">
     {% if page.video-1 %}
     <div class="embed embed-16by9">
       <video class="embed-item" width="100%" autoplay loop>
@@ -124,7 +124,7 @@ layout: default
       <iframe class="embed-item" src="{{page.pdf-1}}" width="100%"></iframe>
     </div>
     {% else %}
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-1}}" alt="{{page.img-1-alt}}">
+    <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-1}}" alt="{{page.img-1-alt}}">
     {% endif %}
   </div>
   <div class="unit xs-1 l-1-2 pad-right">
@@ -139,7 +139,9 @@ layout: default
       <iframe class="embed-item" src="{{page.pdf-2}}" width="100%"></iframe>
     </div>
     {% else %}
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-2}}" alt="{{page.img-2-alt}}">
+    <div class="push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-2}}" alt="{{page.img-2-alt}}">
+    </div>
     {% endif %}
   </div>
   <div class="unit xs-1 l-1-2 pad-left">
@@ -182,9 +184,17 @@ layout: default
 
 <div class="next grid pad-t-2 case-edges gutter-2 pad-b-2">
   <div class="unit xs-1-2 text-left">
-    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.previousurl}}"><span class="material-symbols-outlined valign-middle">arrow_back</span><span class="bold valign-middle"> Previous </span><span class="valign-middle">{% if page.previousurlname %}| {{page.previousurlname}}{% endif %}</span></a>
+    <a class="f-second" href="{{site.baseurl}}/{{page.previousurl}}">
+      <span class="material-symbols-outlined valign-middle">arrow_back</span>
+      <span class="bold valign-middle"> Previous </span>
+      <span class="valign-middle">{% if page.previousurlname %}| {{page.previousurlname}}{% endif %}</span>
+    </a>
   </div>
   <div class="unit xs-1-2 text-right">
-    <a class="f-second" href="{{site.baseurl}}/case-studies/{{page.nexturl}}"><span class="bold valign-middle">Next </span><span class="valign-middle">{% if page.nexturlname %}| {{page.nexturlname}} {% endif %}</span><span class="material-symbols-outlined valign-middle">arrow_forward</span></a>
+    <a class="f-second" href="{{site.baseurl}}/{{page.nexturl}}">
+      <span class="bold valign-middle">Next </span>
+      <span class="valign-middle">{% if page.nexturlname %}| {{page.nexturlname}} {% endif %}</span>
+      <span class="material-symbols-outlined valign-middle">arrow_forward</span>
+    </a>
   </div>
 </div>

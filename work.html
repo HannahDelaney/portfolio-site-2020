@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work time
-seo-description: My work is categorized by web design, branding, illustration, print design, UI / UX design, motion and advertising. Have a look at my case studies!
+seo-description: My work includes motion, illustration, web and ui design, branding, print, and campaign design. Have a look at my case studies!
 display-img: /images/banner.svg
 ---
 <div class="tight-para pad-t-2 pad-b gutter-2">
@@ -14,5 +14,11 @@ display-img: /images/banner.svg
 <section>
   {% for preview in previews %}
     {% include home-case-info.html %}
+  {% endfor %}
+</section>
+{% assign previews = site.galleries | sort: "order" %}
+<section>
+  {% for preview in previews %}
+    {% include home-gallery-info.html %}
   {% endfor %}
 </section>
