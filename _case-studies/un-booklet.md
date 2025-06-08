@@ -64,6 +64,6 @@ web-bottom-words: View the full PDF document!
 
 previousurl: case-studies/cityofleduc
 previousurlname: City of Leduc
-nexturl: galleries/miscellanea
-nexturlname: Miscellanea Gallery
+nexturl: galleries/highlights
+nexturlname: Highlights Gallery
 ---

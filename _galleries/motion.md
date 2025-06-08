@@ -118,8 +118,8 @@ video-6-date: 2021
 video-6-role: Motion Design | Illustration
 video-6-p: An illustration and animation project which describes reasons graphic designers should learn how to code, working with a script written and voiced by my former web professor? Sounds super fun. I think I'll hide him in the visuals as well...
 
-previousurl: galleries/miscellanea
-previousurlname: Miscellanea Gallery
+previousurl: galleries/highlights
+previousurlname: Highlights Gallery
 nexturl: galleries/illustration
 nexturlname: Illustration Gallery
 ---

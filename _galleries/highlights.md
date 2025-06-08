@@ -3,17 +3,17 @@ layout: skill-study
 order: 1
 seo-description: Projects covering multiple design disciplines including campaign, web and packaging design, and development projects.
 display-img: wwbc-nonalc-split-hires-2.png
-title: "Miscellanea"
-title-short: Miscellanea
+title: "Highlights"
+title-short: Highlights
 preview-img: wwbc-nonalc-split-hires-2.png
 preview-img-alt: Beer case of Whitewater Brewing Company Non-Alocoholic light beers.
 preview-copy: Projects I have worked on across multiple design disciplines.
-preview-case-name-link: galleries/miscellanea
+preview-case-name-link: galleries/highlights
 
 banner-img: banner-valley.jpg
 banner-img-alt: Valley Heartland Business Calculator page showing on a laptop, sitting on a desk in front of a smiling woman.
-h1: Miscellanea Gallery
-h2: Even more fun stuff I've worked on
+h1: Highlights Gallery
+h2: A miscellany of even more projects to see
 category-icons:
   - cat-icon: ux-ui.svg
     cat-icon-alt: Web icon
