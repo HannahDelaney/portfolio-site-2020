@@ -5,7 +5,7 @@ seo-description: Gallery of motion projects ranging from logo reveals, short and
 display-img: unudhr-banner.jpg
 title: "Motion"
 title-short: Motion
-preview-img: ht-motion-preview.gif
+preview-img: ht-motion-preview-lossy.gif
 preview-img-alt: Illustrated hand scratching the Holo Taco logo like a vinyl record, which then explodes into purple glitter.
 preview-copy: Various motion pieces across multiple clients and use cases.
 preview-case-name-link: galleries/motion
@@ -83,7 +83,7 @@ vid-3-3: ht-intro-2023.mp4
 vid-3-3-place: ht-intro-2023-place.jpg
 motion-3-3-h: Fourth Anniversary Launch | Retro Collection
 motion-3-3-year: 2023
-vidimg-3-4: ht-motion-preview.gif
+vidimg-3-4: ht-motion-preview-lossy.gif
 vidimg-3-4-alt: Illustrated hand scratches Holo Taco logo like a vinyl record, which then explodes into purple glitter.
 vidimg-3-5: ht-rainbow.gif
 vidimg-3-5-alt: Glitter rainbow arch pours into nail polish bottle, which shakes once its full and becomes a purple glitter colour.
