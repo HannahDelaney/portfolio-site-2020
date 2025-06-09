@@ -33,15 +33,15 @@ vidgrid-6: brand-hypes/aiana.mp4
 vidgrid-7: brand-hypes/grandbridge.mp4
 vidgrid-8: brand-hypes/hamfilm.mp4
 vidgrid-9: brand-hypes/scpl.mp4
-vidgrid-1-place: brand-hypes/holo-place.png
-vidgrid-2-place: brand-hypes/affiniti-place.png
-vidgrid-3-place: brand-hypes/tourismham-place.png
-vidgrid-4-place: brand-hypes/canadasoccer-place.png
-vidgrid-5-place: brand-hypes/whitewater-place.png
-vidgrid-6-place: brand-hypes/aiana-place.png
-vidgrid-7-place: brand-hypes/grandbridge-place.png
-vidgrid-8-place: brand-hypes/hamfilm-place.png
-vidgrid-9-place: brand-hypes/scpl-place.png
+vidgrid-1-place: brand-hypes/holo-place.jpg
+vidgrid-2-place: brand-hypes/affiniti-place.jpg
+vidgrid-3-place: brand-hypes/tourismham-place.jpg
+vidgrid-4-place: brand-hypes/canadasoccer-place.jpg
+vidgrid-5-place: brand-hypes/whitewater-place.jpg
+vidgrid-6-place: brand-hypes/aiana-place.jpg
+vidgrid-7-place: brand-hypes/grandbridge-place.jpg
+vidgrid-8-place: brand-hypes/hamfilm-place.jpg
+vidgrid-9-place: brand-hypes/scpl-place.jpg
 motion-1-h-5: Whitewater Brewing Co.
 motion-1-5-year:  Logo Reveal | 2022
 motion-1-h-1: Holo Taco
@@ -72,15 +72,15 @@ video-2-p: As part of a marketing and communications strategy to increase the aw
 
 gallery-3-h: Holo Taco Web Launches and GIFs
 vid-3-1: ht-intro-2021.mp4
-vid-3-1-place: ht-intro-2021-place.png
+vid-3-1-place: ht-intro-2021-place.jpg
 motion-3-1-h: Second Anniversary Launch | Remix Collection
 motion-3-1-year: 2021
 vid-3-2: ht-intro-2022.mp4
-vid-3-2-place: ht-intro-2022-place.png
+vid-3-2-place: ht-intro-2022-place.jpg
 motion-3-2-h: Third Anniversary Launch | Gala Collection
 motion-3-2-year: 2022
 vid-3-3: ht-intro-2023.mp4
-vid-3-3-place: ht-intro-2023-place.png
+vid-3-3-place: ht-intro-2023-place.jpg
 motion-3-3-h: Fourth Anniversary Launch | Retro Collection
 motion-3-3-year: 2023
 vidimg-3-4: ht-motion-preview.gif

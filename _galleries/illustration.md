@@ -25,19 +25,19 @@ intro-list-2-h: Dates Active
 intro-list-2: 2019 - present
 
 gallery-1-h: Pay Equity Illustrations and Data Tool
-img-1-1: esdc-1.png
+img-1-1: esdc-1.jpg
 img-1-1-alt: Bright coloured illustrations related to pay equity, such as hands holding coins, graphs, and the Canadian $10 bill of Viola Desmond.
-img-1--2: esdc-2.png
+img-1--2: esdc-2.jpg
 img-1-2-alt: Bright coloured illustrations related to pay equity, such as a credit card, a pay schedule on a calendar, and bilingual stop signs.
-img-1-3: esdc-3.png
+img-1-3: esdc-3.jpg
 img-1-3-alt: Bright coloured illustrations related to pay equity, such as a Canadian Loonie pie chart with a percentage missing, a wheelchair, and imagery representing indigenous populations.
-img-1-4: esdc-4.png
+img-1-4: esdc-4.jpg
 img-1-4-alt: Bright coloured illustrations related to pay equity, such as a bank, maple leaf and stacks of coins.
-img-1-5: esdc-5.png
+img-1-5: esdc-5.jpg
 img-1-5-alt: Bright coloured illustrations related to pay equity, such as multiple transport vehicles, and a piece of stamped Canadian mail.
-img-1-6: esdc-6.png
+img-1-6: esdc-6.jpg
 img-1-6-alt: Bright coloured illustrations related to pay equity, such as a femme person at a microphone, a mobile phone playing a podcast, and a Canadian TV news report.
-img-1-7: esdc-7.png
+img-1-7: esdc-7.jpg
 img-1-7-alt: Bright coloured illustrations related to pay equity, such as official government documents, a lock and key, and smoke stacks.
 img-1-8: esdc-8.jpg
 img-1-8-alt: Bright coloured illustrations related to pay equity, such as a megaphone, hands showing the word equal in ASL (American Sign Language), and an arrow in a bullseye.
