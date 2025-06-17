@@ -85,15 +85,15 @@ motion-3-3-h: Fourth Anniversary Launch | Retro Collection
 motion-3-3-year: 2023
 vidimg-3-4: ht-motion-preview-lossy.gif
 vidimg-3-4-alt: Illustrated hand scratches Holo Taco logo like a vinyl record, which then explodes into purple glitter.
-vidimg-3-5: ht-rainbow.gif
+vidimg-3-5: ht-rainbow-lossy.gif
 vidimg-3-5-alt: Glitter rainbow arch pours into nail polish bottle, which shakes once its full and becomes a purple glitter colour.
-vidimg-3-6: ht-rainbow-bars.gif
+vidimg-3-6: ht-rainbow-bars-lossy.gif
 vidimg-3-6-alt: Five gradient rainbow bars, that phase through colours.
-vidimg-3-7: ht-spill-flaky.gif
+vidimg-3-7: ht-spill-flaky-lossy.gif
 vidimg-3-7-alt: Nail polish bottle turns over, spilling flaky polish contents out in a small pool.
-vidimg-3-8: ht-logo-spin.gif
+vidimg-3-8: ht-logo-spin-lossy.gif
 vidimg-3-8-alt: Holo Taco logo spinning in place, changing through rainbow gradient colours.
-vidimg-3-9: ht-not-problem.gif
+vidimg-3-9: ht-not-problem-lossy.gif
 vidimg-3-9-alt: Nail polish bottle rotating in place, next to the words It's Not a Problem Anymore and a rainbow gradient bar.
 video-3-p: From blogging, to viral YouTube, to a designer nail polish line, the Holo Taco brand is no stranger to attention. For several years on their company anniversary, they created a limited edition polish line and requested a special launch countdown splash page, which would then be featured in a livestream to thousands of people watching internationally. To accomplish the design of these pages, I animated how they would look, and then collaborated with developers to recreate the motion design with code.
 video-3-p-2: My work with Holo Taco also included creating specialty GIF Stickers that are searchable on GIPHY (look up "holo taco") so that fans can add stickers to their posts about the products. Projects with Holo Taco always bring a new challenge — some of the more niche skills I've gained are from projects like these. Never a dull moment!
