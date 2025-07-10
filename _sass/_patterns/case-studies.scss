@@ -53,6 +53,22 @@
   transform: scaleX(1);
 }
 
+.arrow-back {
+  transition: all .3s cubic-bezier(.45,.11,.1,.98);
+}
+
+.arrow-forward {
+  transition: all .3s cubic-bezier(.45,.11,.1,.98);
+}
+
+.arrow:hover .arrow-back {
+  transform: translateX(-.5rem);
+}
+
+.arrow:hover .arrow-forward {
+  transform: translateX(.5rem);
+}
+
 @media only screen and (min-width: 38em) {
 
   .case-banner {

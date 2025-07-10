@@ -558,33 +558,59 @@ layout: default
 </div>
 {% endif %}
 
-<!-- <div class="gutter">
-  <h1>Heading 1</h1>
-  <h2>Heading 2</h2>
-  <h3>Heading 3</h3>
-  <h4>Heading 4</h4>
-  <h5>Heading 5</h5>
-  <h6>Heading 6</h6>
-</div> -->
-
-<!-- Three Coloum method of listing client date and role -->
-<!-- <div class="unit xs-1 gutter">
-  <div class="grid">
-    <div class="unit xs-1 m-1-3 l-1-3">
-      <h4>Client</h4>
-        <p style="margin-right:2.5rem">{{page.video-2-client}}</p>
+{% if page.lastlook-h %}
+<div class="grid case-edges gutter pad-t-2">
+  <div class="unit xs-1 gutter">
+    <h3>{{page.lastlook-h}}</h3>
+  </div>
+  <p class="unit xs-1 gutter">{{page.lastlook-p}}</p>
+  {% if page.lastlook-img-1 %}
+  <div class="grid case-edges gutter-1-2">
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-1}}" alt="{{page.lastlook-img-1-alt}}">
     </div>
-    <div class="unit xs-1-2 m-1-3 l-1-3">
-      <h4>Date</h4>
-        <p>{{page.video-2-date}}</p>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-2}}" alt="{{page.lastlook-img-2-alt}}">
     </div>
-    <div class="unit xs-1-2 m-1-3 l-1-3">
-      <h4>Role</h4>
-        <p>{{page.video-2-role}}</p>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-3}}" alt="{{page.lastlook-img-3-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-2 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/fun/{{page.lastlook-img-4}}" alt="{{page.lastlook-img-4-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-2 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/fun/{{page.lastlook-img-5}}" alt="{{page.lastlook-img-5-alt}}">
     </div>
   </div>
-  <p>{{page.video-2-p}}</p>
-</div> -->
+  {% elsif page.lastlook-vid-1 %}
+  <div class="grid case-edges gutter-1-2">
+    <div class="unit xs-1-2 m-1-4 gutter-1-2 push">
+      <div class="embed embed-1by1">
+        <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.lastlook-vid-1}}" mute autoplay loop></video>
+      </div>
+    </div>
+    <div class="unit xs-1-2 m-1-4 gutter-1-2 push">
+      <div class="embed embed-1by1">
+        <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.lastlook-vid-2}}" mute autoplay loop></video>
+      </div>
+    </div>
+    {% if page.lastlook-vid-3 %}
+    <div class="unit xs-1-2 m-1-4 gutter-1-2 push">
+      <div class="embed embed-1by1">
+        <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.lastlook-vid-3}}" mute autoplay loop></video>
+      </div>
+    </div>
+    <div class="unit xs-1-2 m-1-4 gutter-1-2 push">
+      <div class="embed embed-1by1">
+        <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.lastlook-vid-4}}" mute autoplay loop></video>
+      </div>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
 
 {% if page.web-bottom %}
 <div class="text-center pad-t pad-b-2">
@@ -594,9 +620,17 @@ layout: default
 
 <div class="next grid pad-t-2 case-edges gutter-2 pad-b-2">
   <div class="unit xs-1-2 text-left">
-    <a class="f-second" href="{{site.baseurl}}/{{page.previousurl}}"><span class="material-symbols-outlined valign-middle">arrow_back</span><span class="bold valign-middle"> Previous </span><span class="valign-middle">{% if page.previousurlname %}| {{page.previousurlname}}{% endif %}</span></a>
+    <a class="f-second arrow" href="{{site.baseurl}}/{{page.previousurl}}">
+      <span class="material-symbols-outlined valign-middle arrow-back">arrow_back</span>
+      <span class="bold valign-middle"> Previous </span>
+      <span class="valign-middle">{% if page.previousurlname %}| {{page.previousurlname}}{% endif %}</span>
+    </a>
   </div>
   <div class="unit xs-1-2 text-right">
-    <a class="f-second" href="{{site.baseurl}}/{{page.nexturl}}"><span class="bold valign-middle">Next </span><span class="valign-middle">{% if page.nexturlname %}| {{page.nexturlname}} {% endif %}</span><span class="material-symbols-outlined valign-middle">arrow_forward</span></a>
+    <a class="f-second arrow" href="{{site.baseurl}}/{{page.nexturl}}">
+      <span class="bold valign-middle">Next </span>
+      <span class="valign-middle">{% if page.nexturlname %}| {{page.nexturlname}} {% endif %}</span>
+      <span class="material-symbols-outlined valign-middle arrow-forward">arrow_forward</span>
+    </a>
   </div>
 </div>
