@@ -49,7 +49,7 @@ extra:
   extra-img-1-alt: Two mobile screens being held up, with one showing an older post on the instagram feed and the other showing the same post using the new social template format.
   extra-img-2: qcc-pinned-posts.jpg
   extra-img-2-alt: Zoomed in phone screen showing three pinned posts with information about Ottawa Pride Hockey on instagram, with a faded background of the accompanying carousel posts.
-  p-extra-1: After the success of the tournament weekend, I was approached for additional assets, this time to provide social media templates for the organization so they could establish a more cohesive presence on their instagram page.
+  p-extra-1: After the success of the tournament weekend, I was approached for additional assets, this time to provide social media templates for the organisation so they could establish a more cohesive presence on their instagram page.
   p-extra-2: We worked together to create an array of templates for the team to use with new brand elements that hint at the team jerseys, and make use of some familiar QCC assets as well. With pinned posts and other featured post templates, they can build any post type they need for their feed.
 video-1: qcc-reveal.mp4
 img-2: qcc-swag-1.jpg

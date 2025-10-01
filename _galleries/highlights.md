@@ -38,7 +38,7 @@ video-1: valley-mobiles.mp4
 img-1-client: Valley Heartland CFDC
 img-1-date: 2022-2023
 img-1-role: Web Design
-img-1-p: <a href="https://valleycfdc.ca/">Valley Heartland CFDC</a> is a hub of resources and funding opportunities that allow rural businesses to thrive. This website redesign was required to communicate with and allow visitors and neighbours to access services more effectively. The introduction of digital resources like the business calculators differentiate them from similar small business development organizations, and the custom pages provided a fun opportunity for me to play with animations!
+img-1-p: <a href="https://valleycfdc.ca/">Valley Heartland CFDC</a> is a hub of resources and funding opportunities that allow rural businesses to thrive. This website redesign was required to communicate with and allow visitors and neighbours to access services more effectively. The introduction of digital resources like the business calculators differentiate them from similar small business development organisations, and the custom pages provided a fun opportunity for me to play with animations!
 
 gallery-2-h: Non-Alcoholic Split Case Design
 img-2-1: wwbc-nonalc-split-two-view.jpg
@@ -48,7 +48,7 @@ img-2-2-alt: Non-Alcoholic beer case sitting on the floor in front of stocked Co
 img-2-client: Whitewater Brewing Co.
 img-2-date: 2025
 img-2-role: Graphic Design
-img-2-p: Whitewater Brewing Company needed a new beer case designed to launch their Non-Alcoholic Farmer's Daughter and Shifting Tides into the market. The design would initially be <a href="https://www.instagram.com/p/DJC1J7xuGc_/">featured at Costco</a>, and needed to have shelf appeal from all angles to account for the palette style display stacks Costco uses. I had a great deal of fun creating this split case that features both beers, with distinct visuals of each beer wrapping around the opposing sides of the box. Each has a 'side' but the box design still signifies the presence of both flavours from any angle, with a featured spot for the illustrations representing each beer that organizes the nutritional and ingredient information effectively.
+img-2-p: Whitewater Brewing Company needed a new beer case designed to launch their Non-Alcoholic Farmer's Daughter and Shifting Tides into the market. The design would initially be <a href="https://www.instagram.com/p/DJC1J7xuGc_/">featured at Costco</a>, and needed to have shelf appeal from all angles to account for the palette style display stacks Costco uses. I had a great deal of fun creating this split case that features both beers, with distinct visuals of each beer wrapping around the opposing sides of the box. Each has a 'side' but the box design still signifies the presence of both flavours from any angle, with a featured spot for the illustrations representing each beer that organises the nutritional and ingredient information effectively.
 
 gallery-3-h: Nunavut Healthcare Workers Campaign Concepts
 img-3-1: gon-two-poster.jpg

@@ -43,13 +43,13 @@ compo-img-1-alt: Greyscale map of Leduc background, with a feature of the font R
 compo-img-2: compo-leduc-2.jpg
 compo-img-2-alt: Various card, icon and filter assets from across the site, overlaid on a faded view of the Leduc sitemap.
 p-compo-1: Leduc's branding is established and familiar to their web users, so many of the building blocks of the visuals came established. We added corner decoration and worked to incorporate a lot more colour than they had previously taken advantage of. This provided visual interest, accessible colour pairings, and a more distinct update against the typical blues they had previously been comfortable with.
-p-compo-2: Working as one of two designers on this project allowed for compelling moments of collaboration. I was focused on strategizing, design, production and responsive builds throughout, in tandem with other pages and ideas happening. We were united in our approach from the outset and enjoyed moments of surprising sympatico when we suggested similar design elements independently. This project also provided teaching opportunities, as it was used as a real time training opportunity as our team transitioned to using a new design software.
+p-compo-2: Working as one of two designers on this project allowed for compelling moments of collaboration. I was focused on strategising, design, production and responsive builds throughout, in tandem with other pages and ideas happening. We were united in our approach from the outset and enjoyed moments of surprising sympatico when we suggested similar design elements independently. This project also provided teaching opportunities, as it was used as a real time training opportunity as our team transitioned to using a new design software.
 extra:
   extra-heading: From Wireframes to Finished Design
   extra-img-1: leduc-ci-1.jpg
   extra-img-1-alt: Close ups of event page wireframes, showing Month, List and Map views.
   extra-video-2: leduc-ci-2.mp4
-  p-extra-1: For a website serving so many different needs and with so much content, there was a lot of strategizing that had to happen at the beginning of the project before any designs could be considered.
+  p-extra-1: For a website serving so many different needs and with so much content, there was a lot of strategising that had to happen at the beginning of the project before any designs could be considered.
   p-extra-2: Specifically, some of the custom pages required multiple different view options that all needed to be considered before going to dev. With the attention to these details given early on, we were able to provide various views for users based on their individual preferences, and a much more enjoyable experience navigating the site.
 img-1: leduc-final-1.jpg
 img-1-alt: Mobile screens and cards from the Events page, overlaid on an image of the Leduc Grain Elevator.
