@@ -9,21 +9,21 @@
   border-color: var(--color-teal-dark);
   color: var(--color-white);
   transition: all .3s ease;
-}
 
-.btn-main:hover {
-  background-color: var(--color-d-teal-dark);
-  border-color: var(--color-d-teal-dark);
+  &:hover, &:focus {
+    background-color: var(--color-d-teal-dark);
+    border-color: var(--color-d-teal-dark);
+  }
 }
 
 .btn-ghost {
   background-color: transparent;
   border-color: var(--color-d-teal-dark);
   color: var(--color-d-teal-dark);
-}
 
-.btn-ghost:hover {
-  background-color: var(--color-d-teal-dark);
-  color: var(--color-white);
-  border-color: var(--color-d-teal-dark);
+  &:hover, &:focus {
+    background-color: var(--color-d-teal-dark);
+    color: var(--color-white);
+    border-color: var(--color-d-teal-dark);
+  }
 }

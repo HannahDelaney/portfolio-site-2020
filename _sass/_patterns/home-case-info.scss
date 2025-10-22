@@ -26,8 +26,10 @@ hr {
   background-color: var(--color-grey);
 }
 
-.case-bg:hover {
-  transform: scale(1.01);
+.case-bg {
+  &:hover, &:focus {
+    transform: scale(1.01);
+  }
 }
 
 .home-case-content {
