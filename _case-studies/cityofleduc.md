@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 3
+order: 6
 seo-description: Municipal website design for a city in Alberta, Canada.
 display-img: /images/leduc-banner.jpg
 title: "City of Leduc"
@@ -62,6 +62,6 @@ img-4-alt: Laptop, tablet and mobile views of the Property Tax Calculator.
 
 previousurl: case-studies/ottawapridehockey
 previousurlname: Pride Hockey
-nexturl: case-studies/un-booklet
-nexturlname: UDHR Booklet
+nexturl: case-studies/tepapa
+nexturlname: Te Papa
 ---

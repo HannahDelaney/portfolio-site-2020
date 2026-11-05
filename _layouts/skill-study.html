@@ -129,7 +129,14 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-1-client}}</h4>
+    {% if page.img-1-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-1-location}}
+    </p>
+    {% elsif page.img-1-date %}
     <p>{{page.img-1-date}}</p>
+    {% endif %}
     <p>{{page.img-1-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-1-p}}</p>
@@ -137,7 +144,14 @@ layout: default
   <img class="push gutter img-flex" src="{{site.baseurl}}/images/{{page.img-1}}" alt="{{page.img-1-alt}}">
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-1-client}}</h4>
+    {% if page.img-1-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-1-location}}
+    </p>
+    {% elsif page.img-1-date %}
     <p>{{page.img-1-date}}</p>
+    {% endif %}
     <p>{{page.img-1-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-1-p}}</p>
@@ -152,7 +166,39 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-1-client}}</h4>
+    {% if page.img-1-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-1-location}}
+    </p>
+    {% elsif page.img-1-date %}
     <p>{{page.img-1-date}}</p>
+    {% endif %}
+    <p>{{page.img-1-role}}</p>
+  </div>
+  <p class="unit xs-1 l-2-3 gutter">{{page.img-1-p}}</p>
+  {% elsif page.img-1-3 %}
+  <div class="unit xs-1 push gutter">
+    <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-1-1}}" alt="{{page.img-1-1-alt}}">
+  </div>
+  <div class="grid gutter-1-2">
+    <div class="unit xs-1 l-1-2 push gutter-1-2">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-1--2}}" alt="{{page.img-1-2-alt}}">
+    </div>
+    <div class="unit xs-1 l-1-2 push gutter-1-2">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-1-3}}" alt="{{page.img-1-3-alt}}">
+    </div>
+  </div>
+  <div class="unit xs-1 l-1-3 gutter">
+    <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-1-client}}</h4>
+    {% if page.img-1-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-1-location}}
+    </p>
+    {% elsif page.img-1-date %}
+    <p>{{page.img-1-date}}</p>
+    {% endif %}
     <p>{{page.img-1-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-1-p}}</p>
@@ -164,7 +210,7 @@ layout: default
     <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-1--2}}" alt="{{page.img-1-2-alt}}">
   </div>
   <div class="unit xs-1 push gutter">
-    <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-1-3}}" alt="{{page.img-1-3-alt}}">
+    <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-1--3}}" alt="{{page.img-1-3-alt}}">
   </div>
   <div class="grid gutter-1-2">
     <div class="unit xs-1 m-1-2 push gutter-1-2">
@@ -195,7 +241,14 @@ layout: default
 <div class="case-edges gutter grid">
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-1-client}}</h4>
+    {% if page.img-1-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-1-location}}
+    </p>
+    {% elsif page.img-1-date %}
     <p>{{page.img-1-date}}</p>
+    {% endif %}
     <p>{{page.img-1-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-1-p}}</p>
@@ -255,7 +308,14 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-2-client}}</h4>
+    {% if page.img-2-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-2-location}}
+    </p>
+    {% elsif page.img-1-date %}
     <p>{{page.img-2-date}}</p>
+    {% endif %}
     <p>{{page.img-2-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-2-p}}</p>
@@ -263,7 +323,14 @@ layout: default
   <img class="push gutter img-flex" src="{{site.baseurl}}/images/{{page.img-2}}" alt="{{page.img-2-alt}}">
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-2-client}}</h4>
+    {% if page.img-2-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-2-location}}
+    </p>
+    {% elsif page.img-2-date %}
     <p>{{page.img-2-date}}</p>
+    {% endif %}
     <p>{{page.img-2-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-2-p}}</p>
@@ -274,7 +341,35 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-2-client}}</h4>
+    {% if page.img-2-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-2-location}}
+    </p>
+    {% elsif page.img-2-date %}
     <p>{{page.img-2-date}}</p>
+    {% endif %}
+    <p>{{page.img-2-role}}</p>
+  </div>
+  <p class="unit xs-1 l-2-3 gutter">{{page.img-2-p}}</p>
+  {% elsif page.img-2-3 %}
+  <div class="unit xs-1 push gutter">
+    <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-2-1}}" alt="{{page.img-2-1-alt}}">
+  </div>
+  <div class="grid gutter-1-2">
+    <img class="unit xs-1 l-1-2 push gutter-1-2 img-flex" src="{{site.baseurl}}/images/{{page.img-2--2}}" alt="{{page.img-2-2-alt}}">
+    <img class="unit xs-1 l-1-2 push gutter-1-2 img-flex" src="{{site.baseurl}}/images/{{page.img-2-3}}" alt="{{page.img-2-3-alt}}">
+  </div>
+  <div class="unit xs-1 l-1-3 gutter">
+    <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-2-client}}</h4>
+    {% if page.img-2-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-2-location}}
+    </p>
+    {% elsif page.img-2-date %}
+    <p>{{page.img-2-date}}</p>
+    {% endif %}
     <p>{{page.img-2-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-2-p}}</p>
@@ -286,7 +381,14 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-2-client}}</h4>
-    <p>{{page.video-2-date}}</p>
+    {% if page.img-2-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-2-location}}
+    </p>
+    {% elsif page.img-2-date %}
+    <p>{{page.img-2-date}}</p>
+    {% endif %}
     <p>{{page.video-2-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.video-2-p}}</p>
@@ -363,7 +465,40 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-3-client}}</h4>
+    {% if page.img-3-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-3-location}}
+    </p>
+    {% elsif page.img-3-date %}
     <p>{{page.img-3-date}}</p>
+    {% endif %}
+    <p>{{page.img-3-role}}</p>
+  </div>
+  <p class="unit xs-1 l-2-3 gutter">{{page.img-3-p}}</p>
+
+  {% elsif page.vimg-3-3 %}
+  <div class="grid case-edges gutter">
+    <div class="unit xs-1 push">
+        <video width="100%" autoplay loop>
+          <source src="{{site.baseurl}}/images/{{page.vimg-3-1}}"></source>
+        </video>
+    </div>
+  </div>
+  <div class="grid gutter-1-2">
+    <img class="unit xs-1 l-1-2 push gutter-1-2 img-flex" src="{{site.baseurl}}/images/{{page.vimg-3-2}}" alt="{{page.vimg-3-2-alt}}">
+    <img class="unit xs-1 l-1-2 push gutter-1-2 img-flex" src="{{site.baseurl}}/images/{{page.vimg-3-3}}" alt="{{page.vimg-3-3-alt}}">
+  </div>
+  <div class="unit xs-1 l-1-3 gutter">
+    <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-3-client}}</h4>
+    {% if page.img-3-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-3-location}}
+    </p>
+    {% elsif page.img-3-date %}
+    <p>{{page.img-3-date}}</p>
+    {% endif %}
     <p>{{page.img-3-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-3-p}}</p>
@@ -372,7 +507,14 @@ layout: default
   <img class="push gutter img-flex" src="{{site.baseurl}}/images/{{page.img-3}}" alt="{{page.img-3-alt}}">
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-3-client}}</h4>
+    {% if page.img-3-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-3-location}}
+    </p>
+    {% elsif page.img-3-date %}
     <p>{{page.img-3-date}}</p>
+    {% endif %}
     <p>{{page.img-3-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-3-p}}</p>
@@ -388,7 +530,14 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-3-client}}</h4>
+    {% if page.img-3-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-3-location}}
+    </p>
+    {% elsif page.img-3-date %}
     <p>{{page.img-3-date}}</p>
+    {% endif %}
     <p>{{page.img-3-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-3-p}}</p>
@@ -411,7 +560,14 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-4-client}}</h4>
-    <p>{{page.video-4-date}}</p>
+    {% if page.img-4-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-4-location}}
+    </p>
+    {% elsif page.img-4-date %}
+    <p>{{page.img-4-date}}</p>
+    {% endif %}
     <p>{{page.video-4-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3">{{page.video-4-p}}</p>
@@ -424,7 +580,14 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-4-client}}</h4>
-    <p>{{page.video-4-date}}</p>
+    {% if page.img-4-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-4-location}}
+    </p>
+    {% elsif page.img-4-date %}
+    <p>{{page.img-4-date}}</p>
+    {% endif %}
     <p>{{page.video-4-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.video-4-p}}</p>
@@ -437,7 +600,14 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-4-client}}</h4>
-    <p>{{page.video-4-date}}</p>
+    {% if page.img-4-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-4-location}}
+    </p>
+    {% elsif page.img-4-date %}
+    <p>{{page.img-4-date}}</p>
+    {% endif %}
     <p>{{page.video-4-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3">{{page.video-4-p}}</p>
@@ -448,31 +618,64 @@ layout: default
   </div>
   <div class="unit xs-1 l-1-3">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-4-client}}</h4>
-    <p>{{page.video-4-date}}</p>
+    {% if page.img-4-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-4-location}}
+    </p>
+    {% elsif page.img-4-date %}
+    <p>{{page.img-4-date}}</p>
+    {% endif %}
     <p>{{page.video-4-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3">{{page.video-4-p}}</p>
 
   {% elsif page.img-4-2 %}
   <div class="grid gutter-1-2">
-    <div class="unit xs-1-2 push gutter-1-2">
+    <div class="unit xs-1 l-1-2 push gutter-1-2">
       <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-4-1}}" alt="{{page.img-4-1-alt}}">
     </div>
-    <div class="unit xs-1-2 push gutter-1-2">
+    <div class="unit xs-1 l-1-2 push gutter-1-2">
       <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-4-2}}" alt="{{page.img-4-2-alt}}">
     </div>
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-4-client}}</h4>
+    {% if page.img-4-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-4-location}}
+    </p>
+    {% elsif page.img-4-date %}
     <p>{{page.img-4-date}}</p>
+    {% endif %}
+    <p>{{page.img-4-role}}</p>
+  </div>
+  <p class="unit xs-1 l-2-3 gutter">{{page.img-4-p}}</p>
+  {% elsif page.img-4-3 %}
+  <div class="unit xs-1 push gutter">
+    <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-4-1}}" alt="{{page.img-4-1-alt}}">
+  </div>
+  <div class="grid gutter-1-2">
+    <img class="unit xs-1 l-1-2 push gutter-1-2 img-flex" src="{{site.baseurl}}/images/{{page.img-4--2}}" alt="{{page.img-4-2-alt}}">
+    <img class="unit xs-1 l-1-2 push gutter-1-2 img-flex" src="{{site.baseurl}}/images/{{page.img-4-3}}" alt="{{page.img-4-3-alt}}">
+  </div>
+  <div class="unit xs-1 l-1-3 gutter">
+    <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.img-4-client}}</h4>
+    {% if page.img-4-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-4-location}}
+    </p>
+    {% elsif page.img-4-date %}
+    <p>{{page.img-4-date}}</p>
+    {% endif %}
     <p>{{page.img-4-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.img-4-p}}</p>
   {% endif %}
 </div>
 {% endif %}
-
-
 
 {% if page.gallery-5-h %}
 <div class="case-edges gutter grid pad-t-2">
@@ -494,6 +697,25 @@ layout: default
     <div class="embed embed-16by9">
       <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videofull-5}}"autoplay loop></video>
     </div>
+    {% elsif page.vid-5-2 %}
+    <div class="unit xs-1 gutter-1-2">
+      <div class="grid">
+        <div class="push unit xs-1 m-1-2 gutter-1-2">
+          <div class="embed embed-16by9">
+            <video class="embed-item" width="100%" autoplay loop>
+              <source src="{{site.baseurl}}/images/{{page.vid-5-1}}"></source>
+            </video>
+          </div>
+        </div>
+        <div class="push unit xs-1 m-1-2 gutter-1-2">
+          <div class="embed embed-16by9">
+            <video class="embed-item" width="100%" autoplay loop>
+              <source src="{{site.baseurl}}/images/{{page.vid-5-2}}"></source>
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
     {% elsif page.img-5 %}
     <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-full-5}}" alt="{{page.img-full-5-alt}}">
     {% elsif page.img-5-2 %}
@@ -505,11 +727,26 @@ layout: default
         <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-5-2}}" alt="{{page.img-5-2-alt}}">
       </div>
     </div>
+    {% elsif page.img-5-3 %}
+    <div class="unit xs-1 push gutter">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-5-1}}" alt="{{page.img-5-1-alt}}">
+    </div>
+    <div class="grid gutter-1-2">
+      <img class="unit xs-1 l-1-2 push gutter-1-2 img-flex" src="{{site.baseurl}}/images/{{page.img-5--2}}" alt="{{page.img-5-2-alt}}">
+      <img class="unit xs-1 l-1-2 push gutter-1-2 img-flex" src="{{site.baseurl}}/images/{{page.img-5-3}}" alt="{{page.img-5-3-alt}}">
+    </div>
     {% endif %}
   </div>
   <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-5-client}}</h4>
-    <p>{{page.video-5-date}}</p>
+    {% if page.img-5-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-5-location}}
+    </p>
+    {% elsif page.img-5-date %}
+    <p>{{page.img-5-date}}</p>
+    {% endif %}
     <p>{{page.video-5-role}}</p>
   </div>
   <p class="unit xs-1 l-2-3 gutter">{{page.video-5-p}}</p>
@@ -517,10 +754,9 @@ layout: default
 {% endif %}
 
 
-
 {% if page.gallery-6-h %}
-<div class="case-edges gutter-2 grid pad-t-2">
-  <div class="unit xs-1">
+<div class="case-edges gutter grid pad-t-2">
+  <div class="unit xs-1 m-2-3 gutter">
     <h3>{{page.gallery-6-h}}</h3>
   </div>
   <div class="unit xs-1">
@@ -549,12 +785,19 @@ layout: default
     </div>
     {% endif %}
   </div>
-  <div class="unit xs-1 l-1-3">
+  <div class="unit xs-1 l-1-3 gutter">
     <h4 style="margin: 0 1.5rem 0 0" class="normal">{{page.video-6-client}}</h4>
-    <p>{{page.video-6-date}}</p>
+    {% if page.img-6-location %}
+    <p>
+      <img src="{{site.baseurl}}/images/pin.svg" alt="Location pin">
+      {{page.img-6-location}}
+    </p>
+    {% elsif page.img-6-date %}
+    <p>{{page.img-6-date}}</p>
+    {% endif %}
     <p>{{page.video-6-role}}</p>
   </div>
-  <p class="unit xs-1 l-2-3">{{page.video-6-p}}</p>
+  <p class="unit xs-1 l-2-3 gutter">{{page.video-6-p}}</p>
 </div>
 {% endif %}
 
@@ -564,11 +807,19 @@ layout: default
     <h3>{{page.lastlook-h}}</h3>
   </div>
   <p class="unit xs-1 gutter">{{page.lastlook-p}}</p>
-  {% if page.lastlook-img-1 %}
+  {% if page.lastlook-img-7 %}
   <div class="grid case-edges gutter-1-2">
+    {% if page.lastlook-img-1 %}
     <div class="unit xs-1 m-1-3 gutter-1-2 push">
       <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-1}}" alt="{{page.lastlook-img-1-alt}}">
     </div>
+    {% elsif page.lastlook-vid-1 %}
+    <div class="push unit xs-1 m-1-3 gutter-1-2">
+      <video width="100%" autoplay loop>
+        <source src="{{site.baseurl}}/images/{{page.lastlook-vid-1}}"></source>
+      </video>
+    </div>
+    {% endif %}
     <div class="unit xs-1 m-1-3 gutter-1-2 push">
       <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-2}}" alt="{{page.lastlook-img-2-alt}}">
     </div>
@@ -576,11 +827,46 @@ layout: default
       <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-3}}" alt="{{page.lastlook-img-3-alt}}">
     </div>
     <div class="unit xs-1 m-1-2 gutter-1-2 push">
-      <img class="img-flex" src="{{site.baseurl}}/images/fun/{{page.lastlook-img-4}}" alt="{{page.lastlook-img-4-alt}}">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-4}}" alt="{{page.lastlook-img-4-alt}}">
     </div>
     <div class="unit xs-1 m-1-2 gutter-1-2 push">
-      <img class="img-flex" src="{{site.baseurl}}/images/fun/{{page.lastlook-img-5}}" alt="{{page.lastlook-img-5-alt}}">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-5}}" alt="{{page.lastlook-img-5-alt}}">
     </div>
+    <div class="unit xs-1 m-1-2 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-6}}" alt="{{page.lastlook-img-6-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-2 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-7}}" alt="{{page.lastlook-img-7-alt}}">
+    </div>
+    {% if page.lastlook-img-8 %}
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-8}}" alt="{{page.lastlook-img-8-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-9}}" alt="{{page.lastlook-img-9-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-10}}" alt="{{page.lastlook-img-10-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-11}}" alt="{{page.lastlook-img-11-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-12}}" alt="{{page.lastlook-img-12-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-13}}" alt="{{page.lastlook-img-13-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-14}}" alt="{{page.lastlook-img-14-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-15}}" alt="{{page.lastlook-img-15-alt}}">
+    </div>
+    <div class="unit xs-1 m-1-3 gutter-1-2 push">
+      <img class="img-flex" src="{{site.baseurl}}/images/{{page.lastlook-img-16}}" alt="{{page.lastlook-img-16-alt}}">
+    </div>
+    {% endif %}
   </div>
   {% elsif page.lastlook-vid-1 %}
   <div class="grid case-edges gutter-1-2">

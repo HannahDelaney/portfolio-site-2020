@@ -42,14 +42,14 @@ layout: default
   </div>
 </div>
 
-<div class="inspiration case-edges gutter-2 grid pad-t-2 pad-b-2">
+<div class="inspiration case-edges gutter-2 grid pad-t-2 pad-b-2 push-2">
   <div class="unit xs-1">
     <h3>Inspiration</h3>
   </div>
-  <div class="unit xs-1 l-1-2 pad-right text-center push-2">
+  <div class="unit xs-1 l-1-2 pad-right text-center push">
     <img class="img-flex" src="{{site.baseurl}}/images/inspo/{{page.inspiration-img}}" alt="{{page.inspiration-img-alt}}">
   </div>
-  <div class="unit xs-1 l-1-2 pad-left">
+  <div class="unit xs-1 l-1-2 pad-left push">
       <p>{{page.p-inspo}}</p>
   </div>
 </div>
@@ -119,6 +119,10 @@ layout: default
         <source src="{{site.baseurl}}/images/{{page.video-1}}"></source>
       </video>
     </div>
+    {% elsif page.videoplay-1 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videoplay-1}}" poster="{{site.baseurl}}/images/{{page.videoplay-1-place}}" loop controls></video>
+    </div>
     {% elsif page.pdf-1 %}
     <div class="embed embed-16by9 push">
       <iframe class="embed-item" src="{{page.pdf-1}}" width="100%"></iframe>
@@ -126,37 +130,52 @@ layout: default
     {% else %}
     <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-1}}" alt="{{page.img-1-alt}}">
     {% endif %}
+    {% if page.caption-1 %}
+    <p class="caption push-0">{{page.caption-1}}</p>
+    {% endif %}
   </div>
-  <div class="unit xs-1 l-1-2 pad-right">
+  <div class="unit xs-1 l-1-2 pad-right push">
     {% if page.video-2 %}
     <div class="embed embed-16by9">
       <video class="embed-item" width="100%" autoplay loop>
         <source src="{{site.baseurl}}/images/{{page.video-2}}"></source>
       </video>
     </div>
+    {% elsif page.videoplay-2 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videoplay-2}}" poster="{{site.baseurl}}/images/{{page.videoplay-2-place}}" loop controls></video>
+    </div>
     {% elsif page.pdf-2 %}
     <div class="embed embed-16by9 push">
       <iframe class="embed-item" src="{{page.pdf-2}}" width="100%"></iframe>
     </div>
     {% else %}
-    <div class="push">
-      <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-2}}" alt="{{page.img-2-alt}}">
-    </div>
+    <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-2}}" alt="{{page.img-2-alt}}">
+    {% endif %}
+    {% if page.caption-2 %}
+    <p class="caption push-0">{{page.caption-2}}</p>
     {% endif %}
   </div>
-  <div class="unit xs-1 l-1-2 pad-left">
+  <div class="unit xs-1 l-1-2 pad-left push">
     {% if page.video-3 %}
     <div class="embed embed-16by9">
       <video class="embed-item" width="100%" autoplay loop>
         <source src="{{site.baseurl}}/images/{{page.video-3}}"></source>
       </video>
     </div>
+    {% elsif page.videoplay-3 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videoplay-3}}" poster="{{site.baseurl}}/images/{{page.videoplay-3-place}}" loop controls></video>
+    </div>
     {% elsif page.pdf-3 %}
     <div class="embed embed-16by9 push">
       <iframe class="embed-item" src="{{page.pdf-3}}" width="100%"></iframe>
     </div>
     {% else %}
-    <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-3}}" alt="{{page.img-3-alt}}">
+    <img class="img-flex" src="{{site.baseurl}}/images/{{page.img-3}}" alt="{{page.img-3-alt}}">
+    {% endif %}
+    {% if page.caption-3 %}
+    <p class="caption push-0">{{page.caption-3}}</p>
     {% endif %}
   </div>
   <div class="unit xs-1">
@@ -166,6 +185,10 @@ layout: default
         <source src="{{site.baseurl}}/images/{{page.video-4}}"></source>
       </video>
     </div>
+    {% elsif page.videoplay-4 %}
+    <div class="embed embed-16by9">
+      <video class="embed-item" width="100%" src="{{site.baseurl}}/images/{{page.videoplay-4}}" poster="{{site.baseurl}}/images/{{page.videoplay-4-place}}" loop controls></video>
+    </div>
     {% elsif page.pdf-4 %}
     <div class="embed embed-16by9 push">
       <iframe class="embed-item" src="{{page.pdf-4}}" width="100%"></iframe>
@@ -173,11 +196,14 @@ layout: default
     {% else %}
     <img class="push img-flex" src="{{site.baseurl}}/images/{{page.img-4}}" alt="{{page.img-4-alt}}">
     {% endif %}
+    {% if page.caption-4 %}
+    <p class="caption push-0">{{page.caption-4}}</p>
+    {% endif %}
   </div>
 </div>
 
 {% if page.web-bottom %}
-<div class="text-center pad-t pad-b-2">
+<div class="text-center" style="padding: 1rem 1rem 2rem">
   <a class="f-second giga bold" href="{{page.web-bottom}}">{{page.web-bottom-words}}</a>
 </div>
 {% endif %}

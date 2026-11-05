@@ -9,9 +9,9 @@ preview-img: wwbc-nonalc-split-hires-2.png
 preview-img-alt: Beer case of Whitewater Brewing Company Non-Alocoholic light beers.
 preview-copy: Projects I have worked on across multiple design disciplines.
 preview-case-name-link: galleries/highlights
-
 banner-img: banner-valley.jpg
 banner-img-alt: Valley Heartland Business Calculator page showing on a laptop, sitting on a desk in front of a smiling woman.
+
 h1: Highlights Gallery
 h2: A miscellany of even more projects to see
 category-icons:
@@ -80,8 +80,8 @@ img-4-date: 2020
 img-4-role: Graphic Design | Web Design | Development
 img-4-p: To explore different branding styles and development projects, I created an e-commerce website built with coded patterns, for a small family-run honey and beeswax product business. The pattern library is designed with easy navigation for users of various ages in mind, while the whimsical brand was a fun design challenge with unique opportunities, such as a unique icon for each item in the shop, as the scope of products would likely expand slowly, if at all.
 
-previousurl: case-studies/un-booklet
-previousurlname: UDHR Booklet
+previousurl: galleries/illustration
+previousurlname: Illustration Gallery
 nexturl: galleries/motion
 nexturlname: Motion Gallery
 ---

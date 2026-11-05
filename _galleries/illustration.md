@@ -29,7 +29,7 @@ img-1-1: esdc-1.jpg
 img-1-1-alt: Bright coloured illustrations related to pay equity, such as hands holding coins, graphs, and the Canadian $10 bill of Viola Desmond.
 img-1--2: esdc-2.jpg
 img-1-2-alt: Bright coloured illustrations related to pay equity, such as a credit card, a pay schedule on a calendar, and bilingual stop signs.
-img-1-3: esdc-3.jpg
+img-1--3: esdc-3.jpg
 img-1-3-alt: Bright coloured illustrations related to pay equity, such as a Canadian Loonie pie chart with a percentage missing, a wheelchair, and imagery representing indigenous populations.
 img-1-4: esdc-4.jpg
 img-1-4-alt: Bright coloured illustrations related to pay equity, such as a bank, maple leaf and stacks of coins.
@@ -68,8 +68,18 @@ img-3-client: Mohawk College Accessible Learning Services (ALS)
 img-3-date: 2022
 img-3-p: As part of a conceptualized plan to promote the Mohawk ALS to students, this campaign identified created personas to help students discover if the services may be a good fit for their needs. To support the messaging, I was tasked with illustrating inclusive creative that represented the eight personas, so they could be used in digital and print advertising. Designed looking at the students through a window as though they are struggling in private, the images are also made with the intention that they can be displayed together or separately, as though viewed from the side of the building they all reside in.
 
+lastlook-h: Bits and Bobs
+lastlook-p: A smattering of additional illustration assets!
+lastlook-img-1: sweet-pea.jpg
+lastlook-img-2: iris.jpg
+lastlook-img-3: lily.jpg
+lastlook-img-4: framed-herbs.jpg
+lastlook-img-5: milk-nutrients.jpg
+lastlook-img-6: tui.jpg
+lastlook-img-7: swis.jpg
+
 previousurl: galleries/motion
 previousurlname: Motion Gallery
-nexturl: case-studies/wwf-canada
-nexturlname: WWF-Canada
+nexturl: galleries/highlights
+nexturlname: Highlights Gallery
 ---

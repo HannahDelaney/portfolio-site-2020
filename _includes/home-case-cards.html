@@ -1,0 +1,22 @@
+<div class="case case-bg">
+  <a href="{{site.baseurl}}/{{preview.preview-case-name-link}}/">
+    <div class="pad-t pad-b">
+      <img class="img-flex img-case" src="{{site.baseurl}}/images/{{preview.preview-img}}" alt="{{preview.preview-img-alt}}">
+    </div>
+    <div class="case-study">
+      <div class="home-case-content grid grid-middle">
+        <h2 class="unit xs-3-4 push-1-4 exa bold">{{preview.title}}</h2>
+        <div class="unit xs-1-4 text-right">
+          <span class="material-symbols-outlined valign-middle arrow-forward">arrow_forward</span>
+        </div>
+        <hr class="unit xs-1">
+        <p class="unit xs-1">{{preview.preview-copy}}</p>
+        <div class="unit xs-1 category-list push">
+          {% for icon in preview.category-icons %}
+            {% include category-icon.html cat-icon=icon.cat-icon cat-icon-alt=icon.cat-icon-alt cat-icon-label=icon.cat-icon-label %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

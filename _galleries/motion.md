@@ -111,12 +111,19 @@ video-5-date: 2021
 video-5-role: Motion Design | Illustration
 video-5-p: Motion reel of projects completed while I was a student.
 
-gallery-6-h: Learn to Code Video
+<!-- gallery-6-h: Learn to Code Video
 vimeofull-6: https://player.vimeo.com/video/499413732
 video-6-client: Personal Project
 video-6-date: 2021
 video-6-role: Motion Design | Illustration
-video-6-p: An illustration and animation project which describes reasons graphic designers should learn how to code, working with a script written and voiced by my former web professor? Sounds super fun. I think I'll hide him in the visuals as well...
+video-6-p: An illustration and animation project which describes reasons graphic designers should learn how to code, working with a script written and voiced by my former web professor? Sounds super fun. I think I'll hide him in the visuals as well... -->
+
+<!-- lastlook-h: Bits and Bobs
+lastlook-p: A smattering of additional motion assets!
+lastlook-vid-1: whrn-birds.mp4
+lastlook-vid-2: sja-dog.mp4
+lastlook-vid-3: pepperoni-pack.mp4
+lastlook-vid-4: ht-intro-2022.mp4 -->
 
 previousurl: galleries/highlights
 previousurlname: Highlights Gallery

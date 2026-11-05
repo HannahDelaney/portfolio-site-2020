@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 2
+order: 5
 seo-description: Branding and social media package for queer hockey tournament.
 display-img: qcc-colour-main.png
 title: "Ottawa Pride Hockey"

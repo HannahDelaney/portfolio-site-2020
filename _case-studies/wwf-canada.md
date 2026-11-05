@@ -1,6 +1,6 @@
 ---
 layout: case-study
-order: 1
+order: 4
 seo-description: A multi-channel campaign promoting holiday gifts for the Canadian chapter of the World Wildlife Fund.
 display-img: unudhr-banner.jpg
 title: "World Wildlife Fund Canada"
@@ -61,8 +61,8 @@ img-3-alt: Programmatic ad placement of plush polar bear, flamingo and cheetah w
 img-4: wwf-social-digital-posts.jpg
 img-4-alt: Angled grid of multiple social post assets, showing campaign tagline and various plush animals.
 
-previousurl: galleries/illustration
-previousurlname: Illustration Gallery
+previousurl: case-studies/netsafe-dgg
+previousurlname: Digital Guardian Guide
 nexturl: case-studies/ottawapridehockey
 nexturlname: Pride Hockey
 ---
