@@ -19,9 +19,9 @@ hr {
 
 .curved-edge {
   --c: 40px; /* control the curvature (works with percentage) */
-  aspect-ratio: 1;
   /* you can also update the 60%  */
   mask: radial-gradient(55% var(--c) at 50% var(--c),#0000 calc(100% - 2px),#000) 0 calc(-1*var(--c));
+  padding-bottom: 4rem;
 }
 
 .curved-edge-top {
