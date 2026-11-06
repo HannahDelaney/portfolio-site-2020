@@ -71,15 +71,22 @@ img-3-p: As part of a conceptualized plan to promote the Mohawk ALS to students,
 lastlook-h: Bits and Bobs
 lastlook-p: A smattering of additional illustration assets!
 lastlook-img-1: sweet-pea.jpg
+lastlook-img-1-alt: Realistic digital drawing of a flowering Sweet Pea plant.
 lastlook-img-2: iris.jpg
+lastlook-img-2-alt: Realistic digital drawing of an Iris flower.
 lastlook-img-3: lily.jpg
+lastlook-img-3-alt: Realistic digital drawing of a Lily flower.
 lastlook-img-4: framed-herbs.jpg
+lastlook-img-4-alt: Green technical sketch illustrations of basil, dill, rosemary and mint plants, in a poster frame leaning against a white brick wall.
 lastlook-img-5: milk-nutrients.jpg
+lastlook-img-5-alt: Illustration showing a carton of milk pouring into a glass, with the various healthy food equivalents that milk is comprised of pouring in the stream.
 lastlook-img-6: tui.jpg
+lastlook-img-6-alt: Black and white cartoon of a tūī bird.
 lastlook-img-7: swis.jpg
+lastlook-img-7-alt: Cartoon woman's head, with images of woman and science related imagery making up her hair.
 
 previousurl: galleries/motion
 previousurlname: Motion Gallery
 nexturl: galleries/highlights
-nexturlname: Highlights Gallery
+nexturlname: General Gallery
 ---

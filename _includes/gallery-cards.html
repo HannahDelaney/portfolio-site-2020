@@ -1,0 +1,29 @@
+<section id="work" class="pad-b">
+  <div class="wrapper push-2" style="padding: 0rem 1rem">
+    <h2 style=" margin: 1rem" class="pad-t-2">Miscellany of highlights</h2>
+    <p style="margin: 1rem">As a multidisciplinary designer, my work can take me to all sorts of places. These galleries highlight additional projects and other fun things to take a look at.</p>
+    <hr>
+    <div class="card-grid">
+      {% for preview in previews %}
+        <article class="card gallery">
+
+            <img class="img-flex img-case push" src="{{site.baseurl}}/images/{{preview.preview-img}}" alt="{{preview.preview-img-alt}}">
+            <a class="card-title link-expander" href="{{site.baseurl}}/{{preview.preview-case-name-link}}/">
+              <h3 class="bold mega">{{preview.title}}</h3>
+              <span class="material-symbols-outlined arrow-forward" aria-hidden="true">arrow_forward</span>
+            </a>
+            <p>{{preview.preview-copy}}</p>
+            <div class="card-icons">
+              {% for icon in preview.category-icons %}
+              <div class="cat-icon-container cat-icon-p">
+                <img class="icon category-icon" src="{{site.baseurl}}/images/category-icons/{{icon.cat-icon}}" alt="{{icon.cat-icon-alt}}">
+                <p class="pico-sm f-second">{{icon.cat-icon-label}}</p>
+              </div>
+              {% endfor %}
+            </div>
+
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

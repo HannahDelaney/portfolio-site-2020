@@ -7,7 +7,7 @@ title: "Motion"
 title-short: Motion
 preview-img: ht-motion-preview-lossy.gif
 preview-img-alt: Illustrated hand scratching the Holo Taco logo like a vinyl record, which then explodes into purple glitter.
-preview-copy: Various motion pieces across multiple clients and use cases.
+preview-copy: Motion pieces across multiple clients and use cases.
 preview-case-name-link: galleries/motion
 
 banner-vid: banner-vid-test.mp4
@@ -104,12 +104,12 @@ video-4-client: Electricity Human Resources Canada (EHRC)
 video-4-date: 2022
 video-4-p: EHRC has a number of programs devoted to developing the electricity workforce, one of which is the Competency Framework. It is designed as a baseline of current information for educators, employers, unions and policymakers so they can develop effective HR tools, resources, and relevant training programs. This video introduces the framework as part of a larger video series, and was one of the earliest explainer videos I worked on.
 
-gallery-5-h: Motion Reel
+gallery-5-h: Vintage Motion Reel
 vimeofull-5: https://player.vimeo.com/video/515298166
-video-5-client: Personal Project
+video-5-client: Student Project
 video-5-date: 2021
 video-5-role: Motion Design | Illustration
-video-5-p: Motion reel of projects completed while I was a student.
+video-5-p: Now an older project, but a classic and fun one! Motion reel of work completed during my time as a student.
 
 <!-- gallery-6-h: Learn to Code Video
 vimeofull-6: https://player.vimeo.com/video/499413732
@@ -118,15 +118,8 @@ video-6-date: 2021
 video-6-role: Motion Design | Illustration
 video-6-p: An illustration and animation project which describes reasons graphic designers should learn how to code, working with a script written and voiced by my former web professor? Sounds super fun. I think I'll hide him in the visuals as well... -->
 
-<!-- lastlook-h: Bits and Bobs
-lastlook-p: A smattering of additional motion assets!
-lastlook-vid-1: whrn-birds.mp4
-lastlook-vid-2: sja-dog.mp4
-lastlook-vid-3: pepperoni-pack.mp4
-lastlook-vid-4: ht-intro-2022.mp4 -->
-
 previousurl: galleries/highlights
-previousurlname: Highlights Gallery
+previousurlname: General Gallery
 nexturl: galleries/illustration
 nexturlname: Illustration Gallery
 ---

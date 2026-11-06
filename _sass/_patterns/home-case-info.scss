@@ -1,6 +1,6 @@
 hr {
   border: 0;
-  border-bottom: solid 3px var(--color-green-dark);
+  border-bottom: solid 2px var(--color-green-light);
 }
 
 .font-normal {
@@ -15,6 +15,19 @@ hr {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
+}
+
+.curved-edge {
+  --c: 40px; /* control the curvature (works with percentage) */
+  aspect-ratio: 1;
+  /* you can also update the 60%  */
+  mask: radial-gradient(55% var(--c) at 50% var(--c),#0000 calc(100% - 2px),#000) 0 calc(-1*var(--c));
+}
+
+.curved-edge-top {
+  --c: 40px; /* control the curvature (works with percentage) */
+  /* you can also update the 60%  */
+  mask: radial-gradient(55% var(--c) at top,#0000 calc(100% - 1px),#000);
 }
 
 .case {
@@ -44,7 +57,7 @@ hr {
 .card-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: .75rem;
+  gap: 1.5rem;
   padding: 0rem 1rem;
 }
 
@@ -65,7 +78,7 @@ hr {
     gap: .5rem;
     justify-content: space-between;
     padding-bottom: 1rem;
-    border-bottom: solid 3px var(--color-green-dark);
+    border-bottom: solid 2px var(--color-green-dark);
     margin-bottom: 1rem;
     color: var(--color-black);
 
@@ -82,7 +95,7 @@ hr {
   }
 
   .category-icon {
-    width: 3.25rem;
+    width: 4.5rem;
   }
 
   &:has(a:hover, a:focus) {
@@ -97,6 +110,18 @@ hr {
 
 }
 
+.gallery {
+  background-color: var(--color-d-teal-lightest);
+}
+
+.gallery {
+
+&:has(a:hover, a:focus) {
+  background-color: var(--color-d-teal-light);
+}
+
+}
+
 .card-icons {
   display: flex;
   gap: .25rem;
@@ -106,8 +131,8 @@ hr {
   content: " ";
   position: absolute;
   inset: 0;
-  display: block;
-  z-index: 1;
+  // display: block;
+  // z-index: 1;
 }
 
 
@@ -132,6 +157,13 @@ hr {
 
   .card-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .card {
+    .category-icon {
+      width: 3rem;
+    }
   }
 
 }
@@ -154,6 +186,15 @@ hr {
 
   .card-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    gap: .75rem;
+  }
+
+  .curved-edge {
+    --c: 70px;
+  }
+
+  .curved-edge-top {
+    --c: 70px;
   }
 
 }

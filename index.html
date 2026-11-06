@@ -7,26 +7,22 @@ display-img: /images/banner.svg
 ---
 
 {% include home-welcome.html %}
+
 {% assign previews = site.case-studies | sort: "order" %}
-{% comment %}
-<section>
-  {% for preview in previews %}
-    {% include home-case-cards.html %}
-  {% endfor %}
-</section>
-{% endcomment %}
 {% include case-study-cards.html %}
+
 {% assign previews = site.galleries | sort: "order" %}
-<section>
-{% comment %}
-  {% for preview in previews %}
-    {% include home-gallery-info.html %}
-  {% endfor %}
-{% endcomment %}
-</section>
-<div class="h2-home tight-edges pad-b-2">
-  <img class="push img-flex" src="{{site.baseurl}}/images/lil-guy-2-lossy.gif" alt="Strange purple creature with bushy hair peeks out of a round hole containing a moving galaxy, staring in curiousity before being startled and hiding again.">
-  <h2 class="font-normal">Just for Fun</h2>
-  <p class="gutter">Sometimes I do projects just for the fun of it. I might be looking for inspiration, or interested in trying something new.</p>
-  {% include btn-ghost.html class="push-2" link="/fun/" btn="Check it out!" %}
+{% include gallery-cards.html %}
+
+<div class="pad-t-2 pad-b-2 gutter curved-edge-top" style="background-color: var(--color-d-teal-light)">
+  <div class="grid grid-middle pad-t-2">
+    <div class="unit xs-1 l-1-2 pad-t">
+      <img class="push img-flex" src="{{site.baseurl}}/images/lil-guy-2-lossy.gif" alt="Strange purple creature with bushy hair peeks out of a round hole containing a moving galaxy, staring in curiousity before being startled and hiding again.">
+    </div>
+    <div class="unit xs-1 l-1-2 gutter-2">
+      <h2 class="font-normal">Just for Fun</h2>
+      <p>Sometimes I do projects just for the fun of it. I might be looking for creative inspiration, or interested in trying something new.</p>
+      {% include btn-ghost.html link="/fun/" btn="Check it out!" %}
+    </div>
+  </div>
 </div>
