@@ -88,5 +88,15 @@ MMMMMMMMMMWNX0OOkkOO00XNWMMMMMMMMMMMMMMM
       "url": "http://hannahdel.ca"
     }
   </script>
+  <script type="text/javascript">
+    function addBrowserClass() {
+      const ua = navigator.userAgent;
+      if (/firefox|fxios/i.test(ua)) {
+        const body = document.querySelector('body');
+        body.classList.add('firefox');
+      }
+    }
+    addBrowserClass();
+  </script>
 </body>
 </html>

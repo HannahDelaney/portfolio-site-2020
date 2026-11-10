@@ -110,6 +110,16 @@ hr {
 
 }
 
+.firefox .card {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    flex-grow: 1;
+  }
+
+}
+
 .gallery {
   background-color: var(--color-d-teal-lightest);
 }
