@@ -113,18 +113,18 @@ lastlook-img-9: tp_tourscafe.jpg
 lastlook-img-9-alt: Photo of the special Tour menu, showing the dietary options, on a table in the Level 1 Te Papa Café.
 lastlook-img-10: tp_tpv.jpg
 lastlook-img-10-alt: Photo of an info placard about Te Papa Venue special events, on the ticketing desk on Level 2 of the museum.
-lastlook-img-11: tp_rate1.jpg
-lastlook-img-11-alt: Photo of a screen near elevators, showing people outside in nature with a speech bubble requesting TripAdvisor reviews.
-lastlook-img-12: tp_yearend.jpg
-lastlook-img-12-alt: Photo of a screen outside Te Papa Café, with a photo of people in surrealism costumes such as a badger head, advertising booking a year end party with Te Papa venues.
-lastlook-img-13: tp_rate2.jpg
-lastlook-img-13-alt: Photo of a table stand request for TripAdvisor reviews in the Level 4 Te Papa Café, showing a host talking to guests with a speech bubble.
-lastlook-img-14: tp_storewall.jpg
-lastlook-img-14-alt: A woman, Hannah, stands next to a pillar with a wall graphic describing the Te Papa Store Level 1 hours, outside of Te Papa Store.
-lastlook-img-15: tp_isiteguide.jpg
-lastlook-img-15-alt: A hand holds up a laminated info page for international visitors about multilingual mobile guides available, in front of the Wellington isite Visitor's Centre.
-lastlook-img-16: tp_sign-holidays.jpg
-lastlook-img-16-alt: Photo of an internal screen on Level 2 of Te Papa in front of Te Taiao, advertising the holiday gift guide at Te Papa Store.
+lastlook-img-11: tp_storewall.jpg
+lastlook-img-11-alt: A woman, Hannah, stands next to a pillar with a wall graphic describing the Te Papa Store Level 1 hours, outside of Te Papa Store.
+lastlook-img-12: tp_isiteguide.jpg
+lastlook-img-12-alt: A hand holds up a laminated info page for international visitors about multilingual mobile guides available, in front of the Wellington isite Visitor's Centre.
+lastlook-img-13: tp_cart.jpg
+lastlook-img-13-alt: Photo of Te Papa Store pop-up cart, on the museum floor promoting a photography exhibit tie-in book.
+lastlook-img-14: tp_rate1.jpg
+lastlook-img-14-alt: Photo of a screen near elevators, showing people outside in nature with a speech bubble requesting TripAdvisor reviews.
+lastlook-img-15: tp_yearend.jpg
+lastlook-img-15-alt: Photo of a screen outside Te Papa Café, with a photo of people in surrealism costumes such as a badger head, advertising booking a year end party with Te Papa venues.
+lastlook-img-16: tp_rate2.jpg
+lastlook-img-16-alt: Photo of a table stand request for TripAdvisor reviews in the Level 4 Te Papa Café, showing a host talking to guests with a speech bubble.
 
 previousurl: case-studies/cityofleduc
 previousurlname: City of Leduc
