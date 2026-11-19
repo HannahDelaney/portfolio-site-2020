@@ -12,7 +12,7 @@ preview-case-name-link: galleries/highlights
 banner-img: banner-valley.jpg
 banner-img-alt: Valley Heartland Business Calculator page showing on a laptop, sitting on a desk in front of a smiling woman.
 
-h1: General Gallery
+h1: General Highlights Gallery
 h2: A miscellany of even more projects to see
 category-icons:
   - cat-icon: ux-ui.svg
@@ -60,25 +60,34 @@ img-3-date: 2023
 img-3-role: Graphic Design
 img-3-p: As part of a suggested roadmap to encourage healthcare workers to make the move north to Nunavut, two campaign visual concepts were required to pitch alongside a projected marketing strategy. The first (far left) focused on people and community — graphics reminiscent of traditional beadwork and focused imagery of the people who would be aided by access to more healthcare workers, while the second (right) highlighted the natural beauty to be experienced by moving to the area, utilizing illustrations of key landmarks and the aurora.
 
-gallery-4-h: Life with Gutz
-img-4-1: gutz-4screen-home.jpg
-img-4-1-alt: Four different screen sizes, showing different sections of the Life with Gutz homepage.
-img-4-2: gutz-mobile.jpg
-img-4-2-alt: Multiple phone screens showing the various pages of the Life with Gutz website.
-img-4-client: Kathleen Gutzman
-img-4-date: 2020
-img-4-role: Web Design | Development
-img-4-p: Katie approached me in need of a site to accompany the launch of her online presence and YouTube channel. She needed a site that would function as a blog and collect email subscribers, with the potential to grow along with her community. Knowing I would have the most control to create something unique if I coded the entire site myself rather than with a web builder, I designed and developed a responsive online platform using Netlify as a CMS. This gave me full control of the visual outcome, and she could easily add more content within the framework I set up for her.
+gallery-4-h: Here and Queer Concert Poster
+img-full-4: glams.jpg
+img-full-4-alt: A laptop showing the Vitamin Bee homepage sitting on a coffee table, with a teacup, candle and white couch in the background.
+video-4-client: The Glamaphones
+img-4-date: 2026
+video-4-role: Graphic Design
+video-4-p: The Glamaphones are Wellington's LGBTQIA+ choir, performing concerts throughout the year. For their 2026 winter concert, the theme was queer music and composers to recognize the anniversary of the New Zealand Homosexual Law Reform of 1986. Using imagery of Wellington, including the Beehive where parliament sits, alongside representations of pride events and iconic New Zealand musicians the Topp Twins, this design emulates a handmade scrapbook of memories over many years.
 
-gallery-5-h: Vitamin Bee
-img-5-1: vit-b-banner.jpg
-img-5-1-alt: A laptop showing the Vitamin Bee homepage sitting on a coffee table, with a teacup, candle and white couch in the background.
-img-5-2: vit-b-shop.jpg
-img-5-2-alt: A laptop showing part of a product page, for Honey with Lemon, with an image of honeycomb behind the laptop in the background.
-video-5-client: Personal Project
+gallery-5-h: Life with Gutz
+img-5-1: gutz-4screen-home.jpg
+img-5-1-alt: Four different screen sizes, showing different sections of the Life with Gutz homepage.
+img-5-2: gutz-mobile.jpg
+img-5-2-alt: Multiple phone screens showing the various pages of the Life with Gutz website.
+video-5-client: Kathleen Gutzman
 img-5-date: 2020
-img-5-role: Graphic Design | Web Design | Development
-video-5-p: To explore different branding styles and development projects, I created an e-commerce website built with coded patterns, for a small family-run honey and beeswax product business. The pattern library is designed with easy navigation for users of various ages in mind, while the whimsical brand was a fun design challenge with unique opportunities, such as a unique icon for each item in the shop, as the scope of products would likely expand slowly, if at all.
+video-5-role: Web Design | Development
+video-5-p: Katie approached me in need of a site to accompany the launch of her online presence and YouTube channel. She needed a site that would function as a blog and collect email subscribers, with the potential to grow along with her community. Knowing I would have the most control to create something unique if I coded the entire site myself rather than with a web builder, I designed and developed a responsive online platform using Netlify as a CMS. This gave me full control of the visual outcome, and she could easily add more content within the framework I set up for her.
+
+<!-- gallery-6-h: Vitamin Bee
+img-6-1: vit-b-banner.jpg
+img-6-1-alt: A laptop showing the Vitamin Bee homepage sitting on a coffee table, with a teacup, candle and white couch in the background.
+img-6-2: vit-b-shop.jpg
+img-6-2-alt: A laptop showing part of a product page, for Honey with Lemon, with an image of honeycomb behind the laptop in the background.
+video-6-client: Personal Project
+img-6-date: 2020
+video-6-role: Graphic Design | Web Design | Development
+video-6-p: To explore different branding styles and development projects, I created an e-commerce website built with coded patterns, for a small family-run honey and beeswax product business. The pattern library is designed with easy navigation for users of various ages in mind, while the whimsical brand was a fun design challenge with unique opportunities, such as a unique icon for each item in the shop, as the scope of products would likely expand slowly, if at all. -->
+
 
 previousurl: galleries/illustration
 previousurlname: Illustration Gallery

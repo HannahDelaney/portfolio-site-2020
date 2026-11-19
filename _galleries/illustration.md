@@ -18,7 +18,7 @@ category-icons:
   - cat-icon: illustration.svg
     cat-icon-alt: Illustration icon
     cat-icon-label: ILLUSTRATION
-intro-p: Each time I am able to involve illustration in a project, it will quickly become a preferred work piece! While I have illustration samples in multiple projects, the ones shown here put a direct focus on the output of illustrative assets.
+intro-p: Each time I am able to involve illustration in my work, it will quickly become a preferred project. While there are such elements to several of my designs, the work shown here put a direct focus on illustrative assets.
 intro-list-1-h: Role
 intro-list-1: Illustration (if additional roles are relevant, they are listed).
 intro-list-2-h: Dates Active
@@ -69,7 +69,7 @@ img-3-date: 2022
 img-3-p: As part of a conceptualized plan to promote the Mohawk ALS to students, this campaign identified created personas to help students discover if the services may be a good fit for their needs. To support the messaging, I was tasked with illustrating inclusive creative that represented the eight personas, so they could be used in digital and print advertising. Designed looking at the students through a window as though they are struggling in private, the images are also made with the intention that they can be displayed together or separately, as though viewed from the side of the building they all reside in.
 
 lastlook-h: Bits and Bobs
-lastlook-p: A smattering of additional illustration assets!
+lastlook-p: A few additional illustration assets!
 lastlook-img-1: sweet-pea.jpg
 lastlook-img-1-alt: Realistic digital drawing of a flowering Sweet Pea plant.
 lastlook-img-2: iris.jpg

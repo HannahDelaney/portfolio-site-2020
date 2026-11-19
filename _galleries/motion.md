@@ -19,7 +19,7 @@ category-icons:
     cat-icon-label: MOTION
 intro-p: Motion design has been a primary focus of my day-to-day portfolio for the past couple of years, and as a result I have worked on many different types of projects. Take a look below for branding focused pieces, explainer videos and some more unique, fun projects too.
 intro-list-1-h: Role
-intro-list-1: Motion Design (if additional roles are relevant, they are listed).
+intro-list-1: Motion Design
 intro-list-2-h: Dates Active
 intro-list-2: 2021 - present
 
@@ -101,15 +101,15 @@ video-3-p-2: My work with Holo Taco also included creating specialty GIF Sticker
 gallery-4-h: Competency Framework Campaign Video
 youtubefull-4: gxxxw_UB5w0?si=7gzMKHBcY2-mOiB0
 video-4-client: Electricity Human Resources Canada (EHRC)
-video-4-date: 2022
+img-4-date: 2022
 video-4-p: EHRC has a number of programs devoted to developing the electricity workforce, one of which is the Competency Framework. It is designed as a baseline of current information for educators, employers, unions and policymakers so they can develop effective HR tools, resources, and relevant training programs. This video introduces the framework as part of a larger video series, and was one of the earliest explainer videos I worked on.
 
-gallery-5-h: Vintage Motion Reel
+<!-- gallery-5-h: Vintage Motion Reel
 vimeofull-5: https://player.vimeo.com/video/515298166
 video-5-client: Student Project
 video-5-date: 2021
 video-5-role: Motion Design | Illustration
-video-5-p: Now an older project, but a classic and fun one! Motion reel of work completed during my time as a student.
+video-5-p: Now an older project, but a classic and fun one! Motion reel of work completed during my time as a student. -->
 
 <!-- gallery-6-h: Learn to Code Video
 vimeofull-6: https://player.vimeo.com/video/499413732
