@@ -48,6 +48,18 @@
   grid-row: span 6;
 }
 
+.about {
+
+  img {
+    max-width: 10rem;
+  }
+
+  p {
+    text-align: center;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .grid-container {
@@ -61,6 +73,14 @@
   .grid-container {
     gap: 1rem;
     grid-template-columns: repeat(8, 1fr);
+  }
+
+  .about {
+
+    img {
+      max-width: 6.5rem;
+    }
+
   }
 
 }

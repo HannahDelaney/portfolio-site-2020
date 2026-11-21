@@ -21,12 +21,14 @@ layout: default
     <p>{{page.intro-p}}</p>
   </div>
   <div class="unit xs-1 l-1-2 gutter-2 pad-b-2">
-    <h3 class="push-0 mega">{% if page.intro-list-1-h %}{{page.intro-list-1-h}}:{% endif %}</h3>
+    <h3 class="push-0 mega">{{page.intro-list-1-h}}:{% endif %}</h3>
     <p class="milli">{% if page.intro-list-1 %}{{page.intro-list-1}}{% endif %}</p>
     <h3 class="push-0 mega">{% if page.intro-list-2-h %}{{page.intro-list-2-h}}:{% endif %}</h3>
     <p class="milli">{% if page.intro-list-2 %}{{page.intro-list-2}}{% endif %}</p>
-    <h3 class="push-0 mega">{% if page.intro-list-3-h %}{{page.intro-list-3-h}}:{% endif %}</h3>
-    <p class="milli">{% if page.intro-list-3 %}{{page.intro-list-3}}{% endif %}</p>
+    {% if page.intro-list-3-h %}
+    <h3 class="push-0 mega">{{page.intro-list-3-h}}:</h3>
+    <p class="milli">{{page.intro-list-3}}</p>
+    {% endif %}
   </div>
 </div>
 
