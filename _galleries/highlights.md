@@ -6,7 +6,7 @@ display-img: wwbc-nonalc-split-hires-2.png
 title: "General"
 title-short: General
 preview-img: wwbc-nonalc-split-hires-2.png
-preview-img-alt: Beer case of Whitewater Brewing Company Non-Alocoholic light beers.
+preview-img-alt: Beer case of Whitewater Brewing Company Non-Alcoholic light beers.
 preview-copy: Projects I have worked on across multiple design disciplines.
 preview-case-name-link: galleries/highlights
 banner-img: banner-valley.jpg
@@ -62,7 +62,7 @@ img-3-p: As part of a suggested roadmap to encourage healthcare workers to make 
 
 gallery-4-h: Here and Queer Concert Poster
 img-full-4: glams.jpg
-img-full-4-alt: A laptop showing the Vitamin Bee homepage sitting on a coffee table, with a teacup, candle and white couch in the background.
+img-full-4-alt: Here and Queer concert poster on a purple background, with black and white newspaper images and coloured title and pride flags.
 video-4-client: The Glamaphones
 img-4-date: 2026
 video-4-role: Graphic Design

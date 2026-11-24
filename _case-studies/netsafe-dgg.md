@@ -2,7 +2,7 @@
 layout: case-study
 order: 3
 seo-description: Online tool containing a library of resources pertaining to internet safety.
-display-img: qcc-colour-main.png
+display-img: dgg_banner.jpg
 title: "Digital Guardian Guide"
 title-short: Digital Guardian Guide
 preview-img: dgg_preview.png

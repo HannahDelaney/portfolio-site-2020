@@ -2,7 +2,7 @@
 layout: case-study
 order: 2
 seo-description: Educational video series about online incidents and family safety.
-display-img: qcc-colour-main.png
+display-img: netsafe_anz-details.jpg
 title: "Netsafe Education Videos"
 title-short: Netsafe Videos
 preview-img: netsafe-preview.gif
@@ -56,7 +56,7 @@ extra:
   extra-heading: Building a world to play in
   extra-video-1: netsafe_process.mp4
   extra-img-2: netsafe_anz-details.jpg
-  extra-img-2-alt: beep
+  extra-img-2-alt: Six illustrative bubbles showing specifically New Zealand based context pieces from the video series.
   p-extra-1: Art directing this project allowed me to fully create the spaces these characters occupy. Through a combination of lived experience in Aotearoa and researched visual references, I was able to craft an immersive world from the project outset.
   p-extra-2: Designing from Canada, I was aware the videos needed to feel automatically familiar to the target audience of New Zealand whānau (families). There are details throughout that help create this context, from visual cues seen here to the correct birdsong (such as tūī) heard when the characters are outdoors.
 

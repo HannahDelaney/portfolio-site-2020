@@ -2,7 +2,7 @@
 layout: case-study
 order: 4
 seo-description: A multi-channel campaign promoting holiday gifts for the Canadian chapter of the World Wildlife Fund.
-display-img: unudhr-banner.jpg
+display-img: wwf-social-digital-posts.jpg
 title: "World Wildlife Fund Canada"
 title-short: WWF-Canada
 preview-img: wwf-preview-image-3.png

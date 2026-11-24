@@ -1,16 +1,16 @@
 ---
 layout: skill-study
 order: 1
-seo-description: Branding and social media package for queer hockey tournament.
-display-img: qcc-colour-main.png
+seo-description: Working for the national museum in Wellington, Aotearoa New Zealand.
+display-img: tp_banner.jpg
 title: "Te Papa Tongarewa Museum of New Zealand"
 title-short: Te Papa
 preview-img: tp_preview.png
-preview-img-alt: QCC logo, showing a hockey player skating on the Ottawa canal, with ice replaced by rainbow coloured hockey sticks and the title Queer Capital Cup.
+preview-img-alt: Te Papa Logo
 preview-copy: Assortment of commercial marketing projects for national museum of New Zealand.
 preview-case-name-link: case-studies/tepapa
 banner-img: tp_banner.jpg
-banner-img-alt: A woman wearing sunglasses, Hannah, stands in the courtyard in front of Te Papa in Wellington.
+banner-img-alt: Illustration of products sold by Toa Tamariki at Te Papa.
 
 h1: Te Papa
 h2: Working for the national museum in Wellington, Aotearoa New Zealand.
