@@ -78,16 +78,6 @@ img-5-date: 2020
 video-5-role: Web Design | Development
 video-5-p: Katie approached me in need of a site to accompany the launch of her online presence and YouTube channel. She needed a site that would function as a blog and collect email subscribers, with the potential to grow along with her community. Knowing I would have the most control to create something unique if I coded the entire site myself rather than with a web builder, I designed and developed a responsive online platform using Netlify as a CMS. This gave me full control of the visual outcome, and she could easily add more content within the framework I set up for her.
 
-<!-- gallery-6-h: Vitamin Bee
-img-6-1: vit-b-banner.jpg
-img-6-1-alt: A laptop showing the Vitamin Bee homepage sitting on a coffee table, with a teacup, candle and white couch in the background.
-img-6-2: vit-b-shop.jpg
-img-6-2-alt: A laptop showing part of a product page, for Honey with Lemon, with an image of honeycomb behind the laptop in the background.
-video-6-client: Personal Project
-img-6-date: 2020
-video-6-role: Graphic Design | Web Design | Development
-video-6-p: To explore different branding styles and development projects, I created an e-commerce website built with coded patterns, for a small family-run honey and beeswax product business. The pattern library is designed with easy navigation for users of various ages in mind, while the whimsical brand was a fun design challenge with unique opportunities, such as a unique icon for each item in the shop, as the scope of products would likely expand slowly, if at all. -->
-
 
 previousurl: galleries/illustration
 previousurlname: Illustration Gallery

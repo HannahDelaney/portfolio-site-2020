@@ -1,24 +1,73 @@
 ---
 layout: default
 ---
-<!-- <div class="relative" style="background-color: {{page.bg-color}}">
+<div class="relative" style="background-color: {{page.bg-color}}">
   <a class="absolute welcome-logo" href="/">
     <img src="/images/logo-graphic.svg" alt="Hannah Delaney B logo graphic.">
   </a>
   <img class="welcome-img img-flex" src="{{site.baseurl}}/images/{{page.banner}}" alt="{{page.banner-alt}}">
 </div>
 <div class="welcome-content">
-  <img class="pad-t i-196" src="/images/logo-icon.svg" alt="">
   <h1 class="pad-t-2 normal peta"><span class="bold block tena">Nice to meet you</span>To the <span class="bold">{{page.h1}}</span> team</h1>
   <p class="gutter">Thank you for having a look at my website. <br>I appreciate the time that you're taking, and I hope you like what you see!</p>
-  {% include btn.html class="push-2" link="/" btn="Enter site"%}
 </div>
-Above is the welcome format when it wasn't being used as a splash page. -->
-
-<div class="relative island" style="background-color: {{page.bg-color}}">
-  <img class="welcome-img img-flex gutter" src="{{site.baseurl}}/images/{{page.banner}}" alt="{{page.banner-alt}}">
+{% if page.h2 %}
+<div class="pad-t-2 pad-b-2 gutter curved-edge-top" style="background-color: var(--color-d-teal-light)">
+  <div class="pad-t-2 wrapper">
+    <h2>{{page.h2}}</h2>
+    <p>{{page.intro-p}}</p>
+    <div class="card-grid">
+      <article class="card">
+        <img class="img-flex img-case push" src="{{site.baseurl}}/images/{{page.preview-img-1}}" alt="{{page.preview-img-1-alt}}">
+        <a class="card-title link-expander" href="{{site.baseurl}}/{{page.preview-case-name-link-1}}/">
+          <h3 class="bold mega">{{page.title-1}}</h3>
+          <span class="material-symbols-outlined arrow-forward" aria-hidden="true">arrow_forward</span>
+        </a>
+        <p>{{page.preview-copy-1}}</p>
+        <div class="card-icons">
+          {% for icon in page.category-icons-1 %}
+          <div class="cat-icon-container cat-icon-p">
+            <img class="icon category-icon" src="{{site.baseurl}}/images/category-icons/{{icon.cat-icon}}" alt="{{icon.cat-icon-alt}}">
+            <p class="pico-sm f-second">{{icon.cat-icon-label}}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </article>
+      <article class="card">
+        <img class="img-flex img-case push" src="{{site.baseurl}}/images/{{page.preview-img-2}}" alt="{{page.preview-img-2-alt}}">
+        <a class="card-title link-expander" href="{{site.baseurl}}/{{page.preview-case-name-link-2}}/">
+          <h3 class="bold mega">{{page.title-2}}</h3>
+          <span class="material-symbols-outlined arrow-forward" aria-hidden="true">arrow_forward</span>
+        </a>
+        <p>{{page.preview-copy-2}}</p>
+        <div class="card-icons">
+          {% for icon in page.category-icons-2 %}
+          <div class="cat-icon-container cat-icon-p">
+            <img class="icon category-icon" src="{{site.baseurl}}/images/category-icons/{{icon.cat-icon}}" alt="{{icon.cat-icon-alt}}">
+            <p class="pico-sm f-second">{{icon.cat-icon-label}}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </article>
+      <article class="card">
+        <img class="img-flex img-case push" src="{{site.baseurl}}/images/{{page.preview-img-3}}" alt="{{page.preview-img-3-alt}}">
+        <a class="card-title link-expander" href="{{site.baseurl}}/{{page.preview-case-name-link-3}}/">
+          <h3 class="bold mega">{{page.title-3}}</h3>
+          <span class="material-symbols-outlined arrow-forward" aria-hidden="true">arrow_forward</span>
+        </a>
+        <p>{{page.preview-copy-3}}</p>
+        <div class="card-icons">
+          {% for icon in page.category-icons-3 %}
+          <div class="cat-icon-container cat-icon-p">
+            <img class="icon category-icon" src="{{site.baseurl}}/images/category-icons/{{icon.cat-icon}}" alt="{{icon.cat-icon-alt}}">
+            <p class="pico-sm f-second">{{icon.cat-icon-label}}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </article>
+  </div>
 </div>
-<div class="text-center gutter pad-t-2 pad-b-2 push-2">
-  <h1 class="pad-t-2 normal peta"><span class="bold block tena">Under Construction</span>Thank you for visiting!</h1>
-  <p>I am currently making some updates, so the site isn't accessible at the moment. <br>Please check back soon, and in the meantime look below for places to find me.</p>
+{% endif %}
+<div class="text-center pad-t-2" style="background-color: var(--color-d-teal-light)">
+  {% include btn.html class="push" link="/" btn="Or, see it all! Go to homepage"%}
 </div>

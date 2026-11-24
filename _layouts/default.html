@@ -48,7 +48,9 @@ MMMMMMMMMMWNX0OOkkOO00XNWMMMMMMMMMMMMMMM
 </head>
 <body>
   <ul class="skip-links">
+    {% unless page.noNavSkip %}
     <li><a href="#nav">Jump to navigation</a></li>
+    {% endunless %}
     <li><a href="#main">Jump to main content</a></li>
     <li><a href="#footer">Jump to footer</a></li>
   </ul>

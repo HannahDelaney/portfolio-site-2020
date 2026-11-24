@@ -23,6 +23,7 @@ category-icons:
   - cat-icon: illustration.svg
     cat-icon-alt: Illustration icon
     cat-icon-label: ILLUSTRATION
+
 year: 2023
 intro-p: Each year, the Canadian chapter of the World Wildlife Fund (WWF-Canada) funds a campaign to sell true-to-life plush toys and apparel, proceeds of which go towards preserving the real world habitats of the animals featured. Working with product I've enjoyed on a personal level, an iconic brand, and getting to work on something charitable, are three ingredients for my kind of project!
 client-a: World Wildlife Fund - Canada
